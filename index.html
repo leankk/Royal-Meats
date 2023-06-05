@@ -12,29 +12,37 @@
 
 <body>
     <header>
+        <div class="logotipo">
+            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+        </div> 
         <nav class="cabecalhomobile">
-            <section id="menubar">
+            
+            <section id="menubar" class="invisivel">
                 <ul>
-                    <img onclick="AbreFecha()" src="project/images-html/cardapio.png">
+                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
+                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
                     <li><a href=#>Cardápio</a></li>
                     <li><a href=#>Ofertas</a></li>
                     <li><a href=#>Sobre Nós</a></li>
                     <li><a href=#>Cadastre-se</a></li>
                 </ul>
+                
             </section>
+            
         </nav>
         
         <nav class="cabecalhodesktop">
+            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
-                <li><a href=#>Cardápio</a></li>
+                <li><a href=#cardapio>Cardápio</a></li>
                 <li><a href=#>Ofertas</a></li>
                 <li><a href=#>Sobre Nós</a></li>
                 <li><a href=#>Cadastre-se</a></li>
             </ul>
         </nav>
-        <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+        
     </header>
-
+    
     <section id=carrossel>
         <img src="project/images-html/banner1.png" name="slide">
         <form id="btn_slide">
@@ -49,7 +57,7 @@
 
         <br>
 
-        <h1>Aqui está nosso cardápio!</h1>
+        <h1>Aqui está nossos destaques de hoje!</h1>
 
         <br>
 
@@ -70,25 +78,46 @@
         </nav>
 
         <br>
+        <a href="#cardapio">           
+            <button>
+                Veja Mais!
+            </button>
+        </a>
 
-        <button>
-            Veja Mais!
-        </button>
+        <section id="cardapio">
+            <nav class="prato">
+                <img src="project/images-html/burguer1.png"> <br><br><br><br><br>
+            </nav>
+    
+            <nav class="prato">
+                <img src="project/images-html/burguer2.png"><br><br><br><br><br>
+            </nav>
+    
+            <nav class="prato">
+                <img src="project/images-html/burguer3.png"><br><br><br><br><br>
+            </nav>
+    
+            <nav class="prato">
+                <img src="project/images-html/burguer4.png"><br><br><br><br><br>
+            </nav>
+    
+            <br>
+        </section>
     </main>
 
     <footer>
+        <hr>
         <nav class="redes">
             <h3>Siga-nos nas redes!</h3>
-            <a href="https://www.instagram.com/_royalmeats/" target="self"><img src="project/images-html/instagram.png"></a>&nbsp;
-            <a href="https://facebook.com" target="self"><img src="project/images-html/facebook.png"></a>&nbsp;
-            <a href="https://web.whatsapp.com" target="self"><img src="project/images-html/whatsapp.png"></a>&nbsp;
+            <a href="https://www.instagram.com/_royalmeats/" target="self"><img src="project/images-html/instagram.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092363374849&is_tour_dismissed=true" target="self"><img src="project/images-html/facebook.png"></a>&nbsp;
         </nav>
 
         <nav class="infos">                
-                <a href="https://google.com" target="self">
-                    <h2>Contato</h2>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="self">
+                    <h2>Contato Empresarial</h2>
                 </a>&nbsp;
-                <a href="https://maps.google.com" target="blank">
+                <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="blank">
                     <h2>Localização</h2>
                 </a>&nbsp;
         </nav>
