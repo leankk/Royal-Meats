@@ -1,0 +1,666 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+/* screen for mobile */
+
+* {
+    font-family: Lora;
+}
+
+html 
+{
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
+
+header 
+{
+    position: fixed;
+    width: 105vw;
+    height: 24vh;
+    padding: 0px;
+    background-color: #fdda16;
+    box-shadow: 0px 0px 4px #fdda16;
+}
+
+header img 
+{
+    margin-top: -20vh;
+    margin-bottom: 5vh;
+    margin-left: 10vw;
+    width: 30vw;
+    height: 30vh;
+}
+
+body 
+{
+    margin: 0vw;
+    padding: 0vw;
+    background-color: #000;
+}
+
+main 
+{
+    text-align: center;
+    color: #fff;
+}
+
+section img 
+{
+    width: 100vw;
+    height: 50vh;
+    margin-top: 24vh;
+}
+
+button 
+{
+    margin-bottom: 2vw;
+    width: 25vw;
+    height: 7vh;
+    border-radius: 2vw;
+}
+
+footer 
+{
+    width: 100vw;
+    position: sticky;
+    margin-bottom: -3vw;
+    background-color: #fdda16;
+    text-align: center;
+    /*box-shadow: 0px 0px 4px #fdda16;*/
+}
+
+footer hr
+{
+    border: solid 3px #000000;
+}
+.logotipo
+{
+    display: inline-flex;
+    float: left;
+    margin-top: 15vw;
+}
+
+.cabecalhomobile 
+{   
+    display: inline-flex;
+    float: right;
+}
+
+.cabecalhomobile img
+{
+    width: 15vw;
+    height: 15vh;
+    margin-top: 7vw;
+    margin-left: -25vw;
+    cursor: pointer;
+    
+}
+
+.cabecalhomobile ul
+{
+    list-style: none;
+    font-size: 22%;
+}
+
+.cabecalhomobile img:hover
+{
+    cursor: pointer;
+}
+
+.cabecalhodesktop 
+{
+    visibility: hidden;
+}
+
+#btn_slide 
+{
+    position: absolute;
+    margin-left: 38vw;
+    margin-top: -5vh;
+    opacity: 0.1;
+    cursor: default;
+}
+
+#btn_slide:hover 
+{
+    opacity: 0.2;
+}
+
+#btn_slide input 
+{
+    cursor: pointer;
+}
+
+#menubar{
+    margin: none;
+    display: table;
+}
+
+.visivel
+{
+    visibility: visible;
+    width: 105vw;
+    height: 100vh;
+    margin-right: 5vw;
+    margin-top: -40vw;
+    transition: 0.15s;
+    
+}
+
+.visivel ul 
+{
+    background-color: #fdda16;
+    margin-top: -25vw;
+}
+
+
+.visivel li
+{
+    margin-right: 5vw;
+    font-size: 10vw;
+    padding: 3vw;
+    text-align: center;
+}
+
+.visivel li img
+{
+    margin-left: -5vw;
+}
+
+.visivel a
+{
+    color: #fff;
+    text-decoration: none;
+    font-size: 10vw;
+    text-align: center;
+}
+
+.invisivel
+{
+    visibility: hidden;
+    height: 0px;
+    transition: 0.15s
+    0.15s case all;
+}
+
+.prato
+{
+    margin-bottom: 3vh;
+    display: inline-table;
+    width: 65vw;
+    background-color:rgba(150,150,150,0.5);
+    border-radius: 3vh;
+    cursor: pointer;
+}
+
+.prato img 
+{
+    width: 75%;
+    padding: 3vw;
+    opacity: 1;
+}
+
+.redes 
+{
+    margin-top: 4vw;
+    margin-right: -4vw;
+    padding-right: 1vw;
+    display: inline-block;
+}
+
+.infos {
+    height: 3vh;
+    margin-top: 10vw;
+    margin-right: 14vw;
+    margin-bottom: 25vw;
+}
+
+.infos a 
+{
+    text-decoration: none;
+    color:#000;
+}
+
+.infos a:hover 
+{
+    transition-delay: 0.5s;
+    transition: 2s;
+    color: #eee;
+}
+
+.infos a:visited 
+{
+    color: #000;
+}
+
+.infos h2
+{
+    margin-left: 15vw;
+    text-align: center;
+}
+
+/* media query for medium screens */
+
+@media only screen and (min-width: 720px) {
+
+    *{
+        font-family: Lora;
+        font-family: 20px;
+        font-weight: bold;
+    }
+    
+    html
+    {
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+    }
+    
+    header
+    {
+        position: fixed;
+        width: 100vw;
+        margin-top: -2vw;
+        padding: 0px; 
+        background-color: #fdda16;
+        box-shadow: 0px 0px 4px #fdda16;
+    }
+    
+    header img
+    {
+        margin-top: -1vw;
+        margin-left: 5vw;
+        width: 18vw;
+        height: 30vh;
+    }
+    
+    body
+    {
+        margin: 0vw;
+        padding: 0vw;
+    }
+    
+    main
+    {
+        text-align: center;
+        margin-left: 0vw;
+    }
+    
+    section img 
+    {
+        width: 100vw;
+        height: 72vh;
+        margin-top: 21vh;
+    }
+    
+    button
+    {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 35vw;
+        height: 7vh;
+        border-radius: 1vw;
+        background-color: #fdda16;
+        font-size: 4vh;
+    }
+    
+    footer
+    {
+        width: 100vw;
+        position: sticky;
+        background-color: #fdda16;
+        text-align: center;
+        box-shadow: 0px 0px 4px #fdda16;
+    }
+    
+    .cabecalhomobile
+    {
+        visibility:hidden;
+    }
+
+    .cabecalhomobile img
+    {
+        visibility: hidden;
+    }
+
+    .cabecalhomobile ul li
+    {
+        list-style: none;;
+    }
+    
+    .cabecalhodesktop
+    {
+        margin-right: -12vw;
+        padding-top: 12vh;
+        float: right;
+    }
+    
+    .cabecalhodesktop ul li
+    {
+        padding: 1.5vh;
+        font-size: 4.5vh;
+        visibility: visible;
+        display: inline;
+    }
+    
+    .cabecalhodesktop a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    #btn_slide
+    {
+        position: static;
+        margin-left: 45vw;
+        margin-top: -5vh;
+        opacity: 0.1;
+        cursor: default;
+    }
+    
+    #btn_slide:hover
+    {
+        opacity: 0.2;
+    }
+    
+    #btn_slide input
+    {
+        cursor: pointer;
+    }
+    .visivel
+    {
+        visibility: visible;
+        height: auto;
+        transition: 0.5s 0.5s ease-out;
+    }
+
+    .invisivel
+    {
+        visibility: hidden;
+        height: 0;
+    }
+    
+    .prato
+    {
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        display: inline-grid;
+        width: 40vw;
+        background-color:rgba(150,150,150,0.5);
+        border: transparent;
+    }
+    
+    .prato img
+    {
+        margin-left: 3vw;
+        width: 75%;
+        padding: 2vw;
+    }
+    
+    .redes
+    {
+        margin-bottom: -40vh;
+        margin-right: 50vw;
+        display: block;
+        padding-top: 10vh;
+    }
+    
+    .infos
+    {
+        margin-bottom: 10vh;
+        margin-left: 55vw;
+        display: block;
+        padding-top: 5vh;
+    }
+    
+    .infos a
+    {
+        width: 3vw;
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .infos a:hover
+    {
+        transition-delay: 0.5s;
+        transition: 2s;
+        color: #eee;
+    }
+    
+    .infos a:visited
+    {
+        color: #fff;
+    }
+    
+    .infos h2
+    {
+        width: 9vw;
+        margin-bottom: -4vh;
+        list-style: none;
+        text-align: center;
+    }
+}
+
+/* media query for desktops */
+
+@media only screen and (min-width: 1024px)
+{
+    *{
+        font-family: Lora;
+        font-family: 20px;
+        font-weight: bold;
+    }
+    
+    html
+    {
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+    }
+    
+    header
+    {
+        position: fixed;
+        width: 100vw;
+        margin-top: -2vw;
+        padding: 0px; 
+        background-color: #fdda16;
+        box-shadow: 0px 0px 4px #fdda16;
+    }
+    
+    header img
+    {
+        margin-top: -0.5vw;
+        margin-left: 5%;
+        width: 20vw;
+        height: 30vh;
+    }
+    
+    body
+    {
+        margin: 0vw;
+        padding: 0vw;
+    }
+    
+    main
+    {
+        text-align: center;
+        margin-left: 0vw;
+    }
+    
+    section img 
+    {
+        width: 100vw;
+        height: 74vh;
+        margin-top: 20vh;
+    }
+    
+    button
+    {
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+        width: 35vw;
+        height: 7vh;
+        border-radius: 1vw;
+        background-color: #fdda16;
+        font-size: 4vh;
+    }
+    
+    footer
+    {
+        width: 100vw;
+        position: sticky;
+        background-color: #fdda16;
+        text-align: center;
+        box-shadow: 0px 0px 4px #fdda16;
+    }
+    
+    .logotipo
+    {
+        display: inline-flex;
+        float: left;
+        margin-top: 0;
+    }
+    .cabecalhomobile
+    {
+        visibility:hidden;
+    }
+
+    .cabecalhomobile img
+    {
+        visibility: hidden;
+    }
+
+    .cabecalhomobile ul li
+    {
+        list-style: none;
+    }
+    
+    .cabecalhodesktop
+    {
+        margin-right: 0vw;
+        margin-top: -20vw;
+        float: right;
+    }
+    
+    .cabecalhodesktop ul li
+    {
+        padding: 2vh;
+        font-size: 5vh;
+        visibility: visible;
+        display: inline;
+    }
+    
+    .cabecalhodesktop a
+    {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .visible
+    {
+        visibility: visible;
+        transition: 0.5s;
+    }
+
+    .visible li
+    {
+        
+        list-style: none;
+        padding: 3vw;
+        text-align: center;
+    }
+
+    .visible a
+    {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    .invisible
+    {
+        visibility: hidden;
+        height: 0px;
+        transition: 0.15s
+        0.5s case all;
+    }
+    
+    #btn_slide
+    {
+        position: static;
+        margin-left: 45vw;
+        margin-top: -5vh;
+        opacity: 0.1;
+        cursor: default;
+    }
+    
+    #btn_slide:hover
+    {
+        opacity: 0.2;
+    }
+    
+    #btn_slide input
+    {
+        cursor: pointer;
+    }
+    
+    .prato
+    {
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        display: inline-block;
+        width: vw;
+        background-color:rgba(150,150,150,0.5);
+        border: transparent;
+        box-shadow: 2px 2px 2px #fff;
+    }
+
+    /*.prato:hover
+    {
+        transform: scale(1.01);
+    }*/
+
+    .prato img
+    {
+        margin-left: 3vw;
+        width: 75%;
+        padding: 2vw;
+    }
+    
+    .redes
+    {
+        margin-bottom: -45vh;
+        margin-right: 50vw;
+        display: block;
+        padding-top: 10vh;
+    }
+    
+    .infos
+    {
+        margin-bottom: 10vh;
+        margin-left: 65vw;
+        display: inline-block;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+    
+    .infos a
+    {
+        width: 3vw;
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .infos a:visited
+    {
+        color: #fff;
+    }
+    
+    .infos h2
+    {
+        font-size: 4.5vh;
+        width: 9vw;
+        margin-bottom: -4vh;
+        list-style: none;
+        text-align: center;
+    }
+}
