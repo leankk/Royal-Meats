@@ -663,4 +663,101 @@ footer hr
         list-style: none;
         text-align: center;
     }
+    
+    /* CSS Sobre Nós */
+
+    .SVM
+    {
+        margin-top: 23vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: -7vh;
+    }
+
+    .SVM p
+    {
+        font-size: 3vh;
+    }
+
+    .SVM h3
+    {
+        margin-top: -1vh;
+    }
+
+    .SVM img
+    {
+        float: left;
+        width: 50vw;
+        height: 90vh;
+        border-radius: 3vh;
+    }
+
+    .SobreNós
+    {
+        font-size: 3vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: right;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .Valores
+    { 
+        height: 65vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: left;
+        background-color: #fdda16;
+        color: #000;
+    }
+
+    .Valores img
+    {
+        float: right;
+        width: 50vw;
+        height: 65vh;
+        border-radius: 3vh;
+    }
+
+    .Valores h5
+    {
+        margin-top: -1vh;
+        margin-left: 5vw;
+        text-align: left;
+        font-size: 3.5vh;
+        cursor: pointer;
+    }
+    
+    .Valores h5:hover
+    {
+        text-decoration: underline;
+    }
+
+    .Valores p 
+    {
+        text-align: left;
+        margin-left: 5vw;
+        margin-top: -3vh;
+    }
+
+    .Missão
+    {
+        height: 50vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: right;
+        color: #000;
+        background-color: #fdda16;
+    }
+
+    .Missão img
+    {
+        float: left;
+        width: 40vw;
+        height: 50vh;
+        padding-bottom: 10vh;
+    }
+}    
 }
