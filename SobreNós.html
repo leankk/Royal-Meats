@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Meats</title>
+    <link rel="icon" href="project/images-html/logotipo2.png">
+    <link rel="stylesheet" href="project/css/style.css">
+    <script language="javascript" src="project/js/scripts.js"></script>
+</head>
+
+<body>
+    <header style="margin-top: -27vh;">
+        <div class="logotipo">
+            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+        </div> 
+        <nav class="cabecalhomobile">
+            
+            <section id="menubar" class="invisivel">
+                <ul>
+                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
+                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
+                    <li><a href=#>Cardápio</a></li>
+                    <li><a href=#>Ofertas</a></li>
+                    <li><a href=#>Sobre Nós</a></li>
+                    <li><a href=#>Cadastre-se</a></li>
+                </ul>
+                
+            </section>
+            
+        </nav>
+        
+        <nav class="cabecalhodesktop">
+            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+            <ul>
+                <li><a href=#cardapio>Cardápio</a></li>
+                <li><a href=#>Ofertas</a></li>
+                <li><a href=#>Sobre Nós</a></li>
+                <li><a href=#>Cadastre-se</a></li>
+            </ul>
+        </nav>        
+    </header>
+  
+    <main>
+        <div class="SVM">
+            <div class="SobreNós">
+                <img src="project/images-html/Missão.jpeg">
+                <h3 style="margin-left: 60vw; font-size: 5vh;">Sobre Nós</h3>
+                <p  style="padding-left: 51vw;">
+                    Na Royal Meats, nossa paixão por hambúrgueres deliciosos e experiências memoráveis nos impulsiona a oferecer o melhor em cada detalhe. 
+                    Desde a escolha cuidadosa dos ingredientes até o atendimento caloroso, 
+                    nos dedicamos a proporcionar uma experiência gastronômica única para nossos clientes.
+                    <br>
+                    Nossos hambúrgueres são feitos com carnes de qualidade premium, selecionadas minuciosamente para garantir sabor e suculência em cada mordida. 
+                    Combinamos técnicas artesanais com criatividade culinária para criar uma variedade de opções que agradam a todos os paladares. 
+                    Nossos pães são frescos e macios, assados diariamente para garantir a melhor experiência possível.
+                    <br>
+                    Na Royal Meats, nosso objetivo é criar não apenas hambúrgueres incríveis, mas também momentos em que você se sinta um rei. 
+                    Valorizamos sua satisfação e estamos empenhados em proporcionar uma experiência gastronômica que deixará um gostinho de quero mais.
+                    <br>
+                    <p style="font-size: 3.5vh;">Venha provar O verdadeiro Hambúrguer da Realeza.</p>
+                </p>
+            </div>
+            <hr>
+            <div class="Valores">
+                <img style="display: right;" src="project/images-html/SobreNós.jpeg">
+                <h3 style="font-size: 5vh;">Valores</h3>  
+                    <h5 onclick="aparece()">+Qualidade</h5>
+                <p id="aparece" style="display: none;"> 
+                    Comprometemo-nos a utilizar ingredientes frescos e selecionados, 
+                    preparando cada hambúrguer com cuidado e atenção aos detalhes, 
+                    para garantir uma experiência saborosa e de alta qualidade em cada refeição.
+                </p>
+                </section> 
+                    <h5 onclick="aparece1()">+Criatividade</h5>
+                <p id=aparece1 style="display: none;">    
+                    Estamos constantemente inovando e criando novos sabores e combinações únicas, 
+                    trazendo opções diferenciadas que despertam a curiosidade e o paladar dos nossos clientes.
+                </p>
+                </section>  
+                    <h5 onclick="aparece2()">+Excelência no Atendimento</h5>
+                <p id="aparece2" style="display: none;">
+                    Valorizamos cada cliente e buscamos oferecer um atendimento atencioso, cortês e personalizado.  
+                    Acreditamos na importância de estabelecer parcerias duradouras e construir relacionamentos sólidos com nossos clientes e colaboradores. 
+                    Queremos que todos se sintam acolhidos e apreciados ao visitar nossa hamburgueria.</p>
+                </p>
+                </section>
+                <br>
+            </div>
+            <hr>
+            <div class="Missão">
+                <img src="project/images-html/Funcionario1.jpeg">
+                <h3 style="font-size: 5vh;">Missão</h3>
+                <p style="padding-left: 41vw;">
+                    Nossa missão é proporcionar uma experiência gastronômica excepcional, oferecendo hambúrgueres deliciosos, preparados com ingredientes frescos e de alta qualidade. 
+                    Buscamos não apenas satisfazer o paladar dos nossos clientes, mas também criar momentos memoráveis, onde cada mordida seja uma explosão de sabor e prazer. 
+                    Queremos ser reconhecidos como a hamburgueria de referência no mundo, combinando criatividade, paixão pela culinária e um atendimento caloroso para superar as expectativas de todos que nos visitam.
+                </p>
+                <br>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <nav class="redes">
+            <h3>Siga-nos nas redes!</h3>
+            <a href="https://www.instagram.com/_royalmeats/" target="self"><img src="project/images-html/instagram.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092363374849&is_tour_dismissed=true" target="self"><img src="project/images-html/facebook.png"></a>&nbsp;
+        </nav>
+
+        <nav class="infos">                
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="self">
+                    <h2>Contato Empresarial</h2>
+                </a>&nbsp;
+                <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="blank">
+                    <h2>Localização</h2>
+                </a>&nbsp;
+        </nav>
+        <br><br><br>
+        <p>©2016-2023<br>
+            Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+
+</html>
