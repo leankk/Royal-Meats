@@ -699,6 +699,11 @@ footer hr
         height: 87vh;
         border-radius: 3vh;
     }
+    
+    .SobreNós p 
+    {
+        padding-left: 51vw;
+    }
 
     .Valores
     { 
@@ -755,5 +760,10 @@ footer hr
         width: 40vw;
         height: 52vh;
         padding-bottom: 10vh;
-    }     
+    }
+    
+    .Missão p 
+    {
+        padding-left: 41vw;
+    }
 }
