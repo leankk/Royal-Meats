@@ -628,19 +628,16 @@ footer hr
     
     .redes
     {
-        margin-bottom: -45vh;
+        margin-top: -30vh;
         margin-right: 50vw;
-        display: block;
-        padding-top: 10vh;
+        display: inline-block;
+        padding-top: 30vh;
     }
     
     .infos
     {
-        margin-bottom: 10vh;
-        margin-left: 65vw;
+        margin-left: 55vw;
         display: inline-block;
-        padding-top: 5vh;
-        padding-bottom: 5vh;
     }
     
     .infos a
@@ -671,7 +668,7 @@ footer hr
         margin-top: 23vh;
         margin-left: 2vw;
         margin-right: 2vw;
-        margin-bottom: -7vh;
+        margin-bottom: 3vh;
     }
 
     .SVM p
@@ -744,7 +741,7 @@ footer hr
 
     .Missão
     {
-        height: 50vh;
+        height: 57vh;
         padding: 2vh;
         border-radius: 3vh;
         display: right;
@@ -756,7 +753,7 @@ footer hr
     {
         float: left;
         width: 40vw;
-        height: 50vh;
+        height: 52vh;
         padding-bottom: 10vh;
-    }    
+    }     
 }
