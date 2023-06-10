@@ -684,14 +684,6 @@ footer hr
         margin-top: -1vh;
     }
 
-    .SVM img
-    {
-        float: left;
-        width: 50vw;
-        height: 90vh;
-        border-radius: 3vh;
-    }
-
     .SobreNós
     {
         font-size: 3vh;
@@ -701,6 +693,14 @@ footer hr
         background-color: #fdda16;
         color: #000;
         text-align: center;
+    }
+    
+    .SobreNós img
+    {
+        float: left;
+        width: 50vw;
+        height: 87vh;
+        border-radius: 3vh;
     }
 
     .Valores
@@ -758,6 +758,5 @@ footer hr
         width: 40vw;
         height: 50vh;
         padding-bottom: 10vh;
-    }
-}    
+    }    
 }
