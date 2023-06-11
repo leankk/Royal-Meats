@@ -325,7 +325,7 @@
 
 /* media query for medium screens */
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
 
     *{
         font-family: Lora;
@@ -395,6 +395,13 @@
         text-align: center;
         box-shadow: 0px 0px 4px #fdda16;
     }
+
+    .logotipo
+    {
+        display: inline-flex;
+        margin-top: 0;
+        float: left;
+    }
     
     .cabecalhomobile
     {
@@ -408,13 +415,13 @@
 
     .cabecalhomobile ul li
     {
-        list-style: none;;
+        list-style: none;
     }
     
     .cabecalhodesktop
     {
-        margin-right: -12vw;
-        padding-top: 12vh;
+        margin-right: 30vw;
+        margin-top: -62vh;
         float: right;
     }
     
@@ -621,8 +628,8 @@
     
     .cabecalhodesktop
     {
-        margin-right: 0vw;
-        margin-top: -15vw;
+        margin-right: 1vw;
+        margin-top: -20vw;
         float: right;
     }
     
