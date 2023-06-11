@@ -40,9 +40,13 @@ document.getElementById("menubar").className.replace("invisivel", "visivel");
 
  function aparece(){
 
+    var w = document.getElementById("aparece1");
     var x = document.getElementById("aparece");
+    var y = document.getElementById("aparece2");
     if (x.style.display === "none") {
         x.style.display = "block";
+        w.style.display = "none";
+        y.style.display = "none";
     } else {
         x.style.display = "none";
     }
@@ -50,9 +54,13 @@ document.getElementById("menubar").className.replace("invisivel", "visivel");
 
 function aparece1(){
 
+    var w = document.getElementById("aparece");
     var x = document.getElementById("aparece1");
+    var y = document.getElementById("aparece2");
     if (x.style.display === "none") {
         x.style.display = "block";
+        w.style.display = "none";
+        y.style.display = "none";
     } else {
         x.style.display = "none";
     }
@@ -60,9 +68,13 @@ function aparece1(){
 
 function aparece2(){
 
+    var w = document.getElementById("aparece");
     var x = document.getElementById("aparece2");
+    var y = document.getElementById("aparece1");
     if (x.style.display === "none") {
         x.style.display = "block";
+        w.style.display = "none";
+        y.style.display = "none";
     } else {
         x.style.display = "none";
     }
