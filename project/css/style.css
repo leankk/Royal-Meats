@@ -722,6 +722,7 @@
     
     .infos
     {
+        margin-top: -20vh;
         margin-left: 55vw;
         display:inline-block;
     }
