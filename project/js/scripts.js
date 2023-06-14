@@ -79,3 +79,15 @@ function aparece2(){
         x.style.display = "none";
     }
 }
+
+function btncardapio(){
+
+    var x = document.getElementById("cardapio");
+    var w = document.getElementById("btncardapio");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        w.style.display = "none";
+    } else {
+        x.style.display = "none";
+    }
+}
