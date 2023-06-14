@@ -141,9 +141,8 @@
         width: 105vw;
         height: 100vh;
         margin-right: 5vw;
-        margin-top: -40vw;
+        margin-top: -25vw;
         transition: 0.15s;
-        
     }
 
     .visivel ul 
@@ -156,7 +155,7 @@
     .visivel li
     {
         margin-right: 5vw;
-        font-size: 10vw;
+        font-size: 10%;
         padding: 3vw;
         text-align: center;
     }
@@ -178,8 +177,7 @@
     {
         visibility: hidden;
         height: 0px;
-        transition: 0.15s
-        0.15s case all;
+        transition: 0.05s;
     }
 
     .prato
@@ -214,7 +212,7 @@
         color: #000;
     }
 
-    .redes
+    footer .redes
     {
         margin-top: 5vw;
         margin-right: -4vw;
@@ -222,7 +220,7 @@
         display: inline-block;
     }
 
-    .infos 
+    footer .infos 
     {
         height: 3vh;
         margin-top: 10vw;
@@ -231,25 +229,25 @@
         display: ruby;
     }
 
-    .infos a 
+    footer .infos a 
     {
         text-decoration: none;
         color:#000;
     }
 
-    .infos a:hover 
+    footer .infos a:hover 
     {
         transition-delay: 0.5s;
         transition: 2s;
         color: #eee;
     }
 
-    .infos a:visited 
+    footer .infos a:visited 
     {
         color: #000;
     }
 
-    .infos h2
+    footer .infos h2
     {
         margin-left: 15vw;
         text-align: center;
