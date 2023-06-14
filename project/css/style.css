@@ -212,7 +212,7 @@
         color: #000;
     }
 
-    footer .redes
+    .redes
     {
         margin-top: 5vw;
         margin-right: -4vw;
@@ -220,7 +220,7 @@
         display: inline-block;
     }
 
-    footer .infos 
+    .infos 
     {
         height: 3vh;
         margin-top: 10vw;
@@ -229,25 +229,25 @@
         display: ruby;
     }
 
-    footer .infos a 
+    .infos a 
     {
         text-decoration: none;
         color:#000;
     }
 
-    footer .infos a:hover 
+    .infos a:hover 
     {
         transition-delay: 0.5s;
         transition: 2s;
         color: #eee;
     }
 
-    footer .infos a:visited 
+    .infos a:visited 
     {
         color: #000;
     }
 
-    footer .infos h2
+    .infos h2
     {
         margin-left: 15vw;
         text-align: center;
