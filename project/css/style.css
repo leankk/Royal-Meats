@@ -142,7 +142,7 @@
         height: 100vh;
         margin-right: 5vw;
         margin-top: -25vw;
-        transition: 0.15s;
+        transition: 0.15s ease-in-out;
     }
 
     .visivel ul 
