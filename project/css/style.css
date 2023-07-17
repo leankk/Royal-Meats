@@ -88,10 +88,11 @@
     .cabecalhomobile img
     {
         width: 15vw;
-        height: 15vh;
+        height: 10vh;
         margin-top: 10vw;
-        margin-left: -25vw;
+        margin-left: -21vw;
         cursor: pointer;
+        transition: 0.5s, ease-in-out;
         
     }
 
@@ -381,10 +382,11 @@
     
     header img
     {
-        margin-top: -1vw;
-        margin-left: 5vw;
-        width: 18vw;
-        height: 30vh;
+        margin-top: -10vw;
+        margin-left: 3vw;
+        padding-right: 1vw;
+        width: 15vw;
+        height: 18vh;
     }
     
     body
@@ -438,20 +440,19 @@
 
     .cabecalhomobile ul li
     {
-        list-style: none;;
+        list-style: none;
     }
     
     .cabecalhodesktop
     {
-        margin-right: -12vw;
-        padding-top: 12vh;
-        float: right;
+        text-align: left;
+        display: inline;
     }
     
     .cabecalhodesktop ul li
     {
-        padding: 1.5vh;
-        font-size: 4.5vh;
+        padding: 0.75vh;
+        font-size: 200%;
         visibility: visible;
         display: inline;
     }
@@ -651,15 +652,16 @@
     
     .cabecalhodesktop
     {
-        margin-right: 0vw;
-        margin-top: -15vw;
+        margin-right: 5vw;
+        margin-top: -10vw;
+        display: inline;
         float: right;
     }
     
     .cabecalhodesktop ul li
     {
-        padding: 2vh;
-        font-size: 5vh;
+        padding: 1vh;
+        font-size: 220%;
         visibility: visible;
         display: inline;
     }
@@ -668,36 +670,6 @@
     {
         text-decoration: none;
         color: #000;
-    }
-
-    .visible
-    {
-        visibility: visible;
-        transition: 0.5s;
-    }
-
-    .visible li
-    {
-        
-        list-style: none;
-        padding: 3vw;
-        text-align: center;
-    }
-
-    .visible a
-    {
-        color: #fff;
-        text-decoration: none;
-        font-size: 1vw;
-        text-align: center;
-    }
-
-    .invisible
-    {
-        visibility: hidden;
-        height: 0px;
-        transition: 0.15s
-        0.5s case all;
     }
     
     #btn_slide
