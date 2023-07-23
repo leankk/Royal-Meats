@@ -4,7 +4,7 @@ var img1="project/images-html/banner1.png";
 var img2="project/images-html/banner2.png";
 var img3="project/images-html/banner3.png";
 var img4="project/images-html/banner4.png";
-var tempo=1500;
+var tempo=2500;
 var exibir=setInterval("exibindo()",tempo);
 
 function exibindo()
@@ -89,5 +89,30 @@ function btncardapio(){
         w.style.display = "none";
     } else {
         x.style.display = "none";
+    }
+}
+
+function valida() {
+
+    if( !document.getElementById('nome').value, !document.getElementById('tel').value,
+     !document.getElementById('email').value, !document.getElementById('end').value, !document.getElementById('cidade').value) {  
+        alert('Preencha os campos requeridos');
+        return false;
+    } 
+    else {
+        alert('Cadastro feito com sucesso!');
+        return true;
+    }
+}
+
+function combos(){
+    x = document.getElementById("combos");
+    w = document.getElementById("acesso");
+
+    if (x.style.display === "none") {
+        x.style.display = "block";
+        w.style.display = "none";
+    } else {
+        x.style.display = "none";   
     }
 }

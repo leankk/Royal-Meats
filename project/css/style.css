@@ -10,6 +10,7 @@
     {
         scroll-behavior: smooth;
         overflow-x: hidden !important;
+        scroll-padding-top: 22vh;
     }
 
     header 
@@ -49,17 +50,10 @@
         margin-top: 22vh;
     }
 
-    button 
-    {
-        margin-bottom: 2vw;
-        width: 25vw;
-        height: 7vh;
-        border-radius: 2vw;
-    }
-
     footer 
     { 
         width: 100vw;
+        height: 36vh;
         position: static;
         margin-bottom: -3vw;
         background-color: #fdda16;
@@ -71,7 +65,7 @@
     {
         display: inline-flex;
         float: left;
-        margin-top: 5vw;
+        margin-top: 8vw;
     }
 
     .cabecalhomobile 
@@ -84,9 +78,8 @@
     {
         width: 12vw;
         height: 10vh;
-        margin-top: 8vw;
-        margin-left: -21vw;
-        cursor: pointer;
+        margin-top: 7vh;
+        margin-left: -20vw;
         transition: 0.5s, ease-in-out;
         
     }
@@ -95,11 +88,6 @@
     {
         list-style: none;
         font-size: 22%;
-    }
-
-    .cabecalhomobile img:hover
-    {
-        cursor: pointer;
     }
 
     .cabecalhodesktop 
@@ -119,11 +107,6 @@
     #btn_slide:hover 
     {
         opacity: 0.2;
-    }
-
-    #btn_slide input 
-    {
-        cursor: pointer;
     }
 
     #menubar{
@@ -179,12 +162,12 @@
     .prato
     {
         margin-bottom: 3vh;
+        font-size: 2vh;
         display: inline-table;
         width: 75vw;
         height: auto;
         background-color:rgba(150,150,150,0.5);
         border-radius: 3vh;
-        cursor: pointer;
         box-shadow: 2px 2px 2px #969696;
     }
 
@@ -228,7 +211,7 @@
 
     .redes
     {
-        margin-top: 2vw;
+        margin-top: 7vw;
         margin-right: -4vw;
         padding-right: 1vw;
         display: inline-block;
@@ -237,7 +220,7 @@
     .infos 
     {
         height: 3vh;
-        margin-top: 7vw;
+        margin-top: 10vw;
         margin-right: 14vw;
         margin-bottom: 13vw;
         display: ruby;
@@ -284,12 +267,17 @@
 
     .SobreNos
     {
-        font-size: 3vh;
+        font-size: 2vh;
         padding: 2vh;
         border-radius: 3vh;
         background-color: #fdda16;
         color: #000;
         text-align: center;
+    }
+
+    .SobreNos p1 
+    {
+        font-size: 3vh;
     }
     
     .SobreNos img
@@ -320,7 +308,6 @@
         margin-left: 5vw;
         text-align: left;
         font-size: 3.5vh;
-        cursor: pointer;
     }
     
     .Valores h5:hover
@@ -349,6 +336,155 @@
         height: 60vh;
         border-radius: 3vw;
     }
+    
+    /*delivery*/
+
+    .campo
+    {
+        margin-top: 25vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 2vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo p 
+    {
+        display: table;
+        margin-left: 30vw;
+    }
+
+    .campo input
+    {
+        height: 2vh;
+        width: 30vw;
+        border-radius: 2vh;
+        font-size: 1.5vh;
+    }
+
+    #P1
+    {
+       margin-left: -20vw; 
+    }
+
+    #P2
+    {
+        margin-left: -20vw;
+    }
+
+    #P3
+    {
+        margin-top: -4.8vh;
+        margin-left: 32vw;
+    }
+
+    #uf
+    {
+        height: 3vh;
+        border-radius: 2vh;
+        font-size: 2vh;
+    }
+
+    #botao
+    {
+        height: 3vh;
+        width: 25vw;
+    }
+ 
+    .desconto
+    {
+        width: 85vw;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        font-size: 2vh;
+        border-radius: 4vh;
+        cursor: pointer;
+        display: inline-block;
+        background-color:rgba(255, 245, 50, 0.769);
+        border: transparent;
+        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+    }
+
+    .desconto img
+    {
+        margin-top: -5vh;
+        width: 75%;
+        padding: 2vw;
+    }
+
+    .desconto p
+    {
+        margin-top: -10vh;
+        margin-left: 0vw;
+        text-align: center;
+    }    /*CSS combos*/
+
+    .campo2
+    {
+        margin-top: 23vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 3vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo2 p 
+    {
+        display: table;
+        margin-left: 5vw;
+    }
+
+    .campo2 input
+    {
+        height: 5vh;
+        width: 50vw;
+        border-radius: 2vh;
+        font-size: 3vh;
+    }
+
+    .desconto
+    {
+        width: 85vw;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        font-size: 2.5vh;
+        border-radius: 4vh;
+        display: inline-block;
+        background-color:rgba(255, 245, 50, 0.769);
+        border: transparent;
+        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+    }
+
+    .desconto img
+    {
+        margin-top: -10vh;
+        width: 75%;
+        padding: 2vw;
+    }
+
+    .desconto p
+    {
+        margin-top: -10vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    #botao1
+    {
+        height: 5vh;
+        width: 40vw;
+        margin-left: 0vw;
+    }
 
 /* media query for medium screens */
 
@@ -364,6 +500,7 @@
     {
         scroll-behavior: smooth;
         overflow-x: hidden !important;
+        scroll-padding-top: 22vh;
     }
     
     header
@@ -402,17 +539,6 @@
         margin-top: 21vh;
     }
     
-    button
-    {
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        width: 35vw;
-        height: 7vh;
-        border-radius: 1vw;
-        background-color: #fdda16;
-        font-size: 4vh;
-    }
-    
     footer
     {
         width: 100vw;
@@ -431,9 +557,31 @@
         margin-top: 11vw;
     }
     
-    .cabecalhomobile
+    .cabecalhomobile 
+    {   
+        display: inline-flex;
+        float: right;
+    }
+
+    .cabecalhomobile img
     {
-        visibility:hidden;
+        width: 12vw;
+        height: 10vh;
+        margin-top: 7vh;
+        margin-left: -20vw;
+        transition: 0.5s, ease-in-out;
+        
+    }
+
+    .cabecalhomobile ul
+    {
+        list-style: none;
+        font-size: 22%;
+    }
+
+    .cabecalhodesktop 
+    {
+        visibility: hidden;
     }
 
     .cabecalhomobile img
@@ -470,7 +618,7 @@
 
     .cabecalhodesktop a:hover{
         font-size: 125%;
-        color: #969696;
+        color: #000;
         transition: 1s;
     }
     
@@ -486,11 +634,6 @@
     #btn_slide:hover
     {
         opacity: 0.2;
-    }
-    
-    #btn_slide input
-    {
-        cursor: pointer;
     }
 
     .visivel
@@ -511,6 +654,7 @@
         margin-bottom: 4vh;
         margin-right: 4vh;
         display: inline-grid;
+        font-size: 2.5vh;
         width: 40vw;
         background-color:rgba(150,150,150,0.5);
         border: transparent;
@@ -554,17 +698,277 @@
         color: #eee;
     }
     
-    .infos a:visited
-    {
-        color: #fff;
-    }
-    
     .infos h2
     {
         width: 9vw;
         margin-bottom: -4vh;
         list-style: none;
         text-align: center;
+    }
+
+    /* CSS Sobre Nós */
+
+    .SVM
+    {
+        margin-top: 25vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 3vh;
+    }
+
+    .SVM p
+    {
+        font-size: 2.5vh;
+    }
+
+    .SVM h3
+    {
+        margin-top: -1vh;
+    }
+
+    .SobreNos
+    {
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+    }
+
+    .SobreNos p1 
+    {
+        font-size: 3vh;
+    }
+    
+    .SobreNos img
+    {
+        float: left;
+        width: 45vw;
+        height: 55vh;
+        border-radius: 3vh;
+    }
+
+    .SobreNos p
+    {
+        display: inline;
+    }
+
+    .Valores
+    {
+        height: 80vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: left;
+        background-color: #fdda16;
+        color: #000;
+    }
+
+    .Valores img
+    {
+        float: right;
+        width: 50vw;
+        height: 70vh;
+        border-radius: 3vh;
+    }
+
+    .Valores h5
+    {
+        margin-top: -1vh;
+        margin-left: 5vw;
+        text-align: left;
+        font-size: 3.5vh;
+        cursor: pointer;
+    }
+
+    .Valores h5:hover
+    {
+        text-decoration: underline;
+    }
+
+    .Valores p 
+    {
+        text-align: left;
+        margin-left: 5vw;
+        margin-top: -3vh;
+    }
+
+    .Missão
+    {
+        height: 57vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: right;
+        color: #000;
+        background-color: #fdda16;
+    }
+
+    .Missão img
+    {
+        float: left;
+        width: 40vw;
+        height: 52vh;
+        padding-bottom: 10vh;
+    }
+    
+    .Missão p 
+    {
+        padding-left: 41vw;
+    }
+
+    /*delivery*/
+
+    .campo
+    {
+        margin-top: 25vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 2.5vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo p 
+    {
+        display: table;
+        margin-left: 27vw;
+    }
+
+    .campo input
+    {
+        height: 3vh;
+        width: 17vw;
+        border-radius: 2vh;
+        font-size: 2vh;
+    }
+
+    #P1
+    {
+       margin-left: -25vw; 
+    }
+
+    #P2
+    {
+        margin-left: 15vw;
+        margin-top: -25vh;
+    }
+
+    #P3
+    {
+        margin-top: -6.5vh;
+        margin-left: 45vw;
+    }
+
+    #P4
+    {
+        margin-left: 5vw;
+    }
+
+    #uf
+    {
+        height: 4vh;
+        border-radius: 2vh;
+        font-size: 2vh;
+    }
+
+    #botao
+    {
+        height: 4vh;
+        width: 15vw;
+    }
+ 
+    .desconto
+    {
+        width: 40vw;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        font-size: 2vh;
+        border-radius: 4vh;
+        display: inline-block;
+        background-color:rgba(255, 245, 50, 0.769);
+        border: transparent;
+        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+    }
+
+    .desconto img
+    {
+        margin-top: -5vh;
+        width: 75%;
+        padding: 2vw;
+    }
+
+    .desconto p
+    {
+        font-size: 2.5vh;
+        margin-top: -5vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+    /*CSS combos*/
+
+    .campo2
+    {
+        margin-top: 23vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 4vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo2 p 
+    {
+        display: table;
+        margin-left: 20vw;
+    }
+
+    .campo2 input
+    {
+        height: 5vh;
+        width: 30vw;
+        border-radius: 2vh;
+        font-size: 3vh;
+    }
+
+    .desconto
+    {
+        width: 40vw;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        font-size: 3vh;
+        border-radius: 4vh;
+        cursor: pointer;
+        display: inline-block;
+        background-color:rgba(255, 245, 50, 0.769);
+        border: transparent;
+        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+    }
+
+    .desconto img
+    {
+        margin-top: -10vh;
+        width: 75%;
+        padding: 2vw;
+    }
+
+    .desconto p
+    {
+        margin-top: -10vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    #botao1
+    {
+        height: 5vh;
+        width: 20vw;
+        margin-left: -5vw;
     }
 }
 
@@ -582,6 +986,7 @@
     {
         scroll-behavior: smooth;
         overflow-x: hidden !important;
+        scroll-padding-top: 22vh;
     }
     
     header
@@ -631,17 +1036,6 @@
         width: 100vw;
         height: 74vh;
         margin-top: 22vh;
-    }
-    
-    button
-    {
-        margin-top: 5vw;
-        margin-bottom: 5vw;
-        width: 35vw;
-        height: 7vh;
-        border-radius: 1vw;
-        background-color: #fdda16;
-        font-size: 4vh;
     }
     
     footer
@@ -700,7 +1094,7 @@
     
     .cabecalhodesktop a:hover{
         font-size: 125%;
-        color: #969696;
+        color: #000;
         transition: 1s;
     }
 
@@ -727,6 +1121,7 @@
     {
         margin-bottom: 4vh;
         margin-right: 4vh;
+        font-size: 3vh;
         display: inline-block;
         background-color:rgba(150, 150, 150, 0.5);
         border: transparent;
@@ -735,9 +1130,10 @@
 
     .prato img
     {
-        margin-top: -10vh;
+        margin-top: -10vh
+        ;
         width: 75%;
-        padding: 2vw;
+        padding: 3vw;
     }
 
     .prato p
@@ -831,18 +1227,18 @@
         color: #000;
         text-align: center;
     }
+
+    .SobreNos p1 
+    {
+        font-size: 4vh;
+    }
     
     .SobreNos img
     {
         float: left;
         width: 50vw;
-        height: 87vh;
+        height: 85vh;
         border-radius: 3vh;
-    }
-
-    .SobreNos p 
-    {
-        padding-left: 51vw;
     }
 
     .Valores
@@ -859,7 +1255,7 @@
     {
         float: right;
         width: 50vw;
-        height: 65vh;
+        height: 80vh;
         border-radius: 3vh;
     }
 
@@ -898,12 +1294,154 @@
     {
         float: left;
         width: 40vw;
-        height: 52vh;
+        height: 60vh;
         padding-bottom: 10vh;
     }
     
     .Missão p 
     {
         padding-left: 41vw;
+    }
+
+    /*CSS cadastro*/
+
+    .campo
+    {
+        margin-top: 23vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 4vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo p 
+    {
+        display: table;
+        margin-left: 36vw;
+    }
+
+    .campo input
+    {
+        height: 5vh;
+        width: 20vw;
+        border-radius: 2vh;
+        font-size: 3vh;
+    }
+
+    #P1
+    {
+       margin-left: -25vw; 
+    }
+
+    #P2
+    {
+        margin-left: 15vw;
+        margin-top: -40vh;
+    }
+
+    #P3
+    {
+        margin-top: -10vh;
+        margin-left: 45vw;
+    }
+
+    #P4 
+    {
+        margin-left: -10vw;
+    }
+
+    #uf
+    {
+        height: 5vh;
+        border-radius: 2vh;
+        font-size: 3vh;
+        cursor: pointer;
+    }
+
+    #botao
+    {
+        height: 5vh;
+        width: 10vw;
+        cursor: pointer;
+    }
+
+    #acessar
+    {
+        width: 15vw;
+        height: 7vh;
+        margin-top: 10vh;
+        margin-left: 70vw;
+        cursor: pointer;
+    }
+
+    /*CSS combos*/
+
+    .campo2
+    {
+        margin-top: 23vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 2vh;
+        font-size: 4vh;
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+        text-align: center;
+    }
+
+    .campo2 p 
+    {
+        display: table;
+        margin-left: 36vw;
+    }
+
+    .campo2 input
+    {
+        height: 5vh;
+        width: 30vw;
+        border-radius: 2vh;
+        font-size: 3vh;
+    }
+
+    .desconto
+    {
+        width: 40vw;
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        font-size: 3vh;
+        border-radius: 4vh;
+        cursor: pointer;
+        display: inline-block;
+        background-color:rgba(255, 245, 50, 0.769);
+        border: transparent;
+        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+    }
+
+    .desconto img
+    {
+        margin-top: -10vh;
+        width: 75%;
+        padding: 2vw;
+    }
+
+    .desconto p
+    {
+        margin-top: -10vh;
+        margin-left: 0vw;
+        text-align: center;
+    }
+
+    #botao1
+    {
+        height: 5vh;
+        width: 10vw;
+        margin-left: 10vw;
+        cursor: pointer;
     }
 }
