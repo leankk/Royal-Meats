@@ -21,10 +21,10 @@
                 <ul>
                     <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
                     <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href=#btncardapio>Cardápio</a></li>
+                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
                     <li><a onclick="AbreFecha()" href=#ofertas>Ofertas</a></li>
-                    <li><a href=sobre.html>Sobre Nós</a></li>
-                    <li><a href=#>Delivery</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>    
             </section>
         </nav>
@@ -32,10 +32,10 @@
         <nav class="cabecalhodesktop">
             <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
-                <li><a href=#btncardapio>Cardápio</a></li>
+                <li><a href=#carda>Cardápio</a></li>
                 <li><a href=#ofertas>Ofertas</a></li>
-                <li><a href=sobre.html>Sobre Nós</a></li>
-                <li><a href=#>Delivery</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
@@ -52,7 +52,7 @@
 
     <main>
         <br>
-        <h2 id="ofertas">Aqui está nossos destaques de hoje!</h2>
+        <h2 id="ofertas">Aqui está nossos destaques!</h2>
         <br>
         <section class="ofertas">
             <nav class="prato">
@@ -60,18 +60,9 @@
                 <h2>RM Classic®</h2>
                 <img src="project/images-html/burguer1.png">
                 <p>
+                    <br><br>
                     Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
                     De <r1>R$32,00</r1> Por R$27,00
-                </p><br>
-            </nav>
-
-            <nav class="prato">
-                <br>
-                <h2>Classic Onion Rings</h2>
-                <img src="project/images-html/burguer2.png">
-                <p>
-                    Dois deliciosos hambúrgueres grelhados no fogo como churrasco, cheddar fatiado, onion rings, molho barbecue e maionese RM®.<br><br>
-                    De <r1>R$35,00</r1> Por R$29,50
                 </p><br>
             </nav>
 
@@ -89,16 +80,26 @@
 
             <nav class="prato">
                 <br>
-                <h2>Royal Chicken</h2>
-                <br>
-                <br>
-                <img src="project/images-html/burguer4.png">
+                <h2>Classic Onion Rings</h2>
+                <img src="project/images-html/burguer2.png">
                 <p>
-                    Pão com gergelim, dois deliciosos filés de peito de frango empanado, cheddar fatiado, maionese e alface.<br><br>
-                    De <r1>R$37,00</r1> Por R$30,00
+                    Dois deliciosos hambúrgueres grelhados no fogo como churrasco, cheddar fatiado, onion rings, molho barbecue e maionese RM®.<br><br>
+                    De <r1>R$35,00</r1> Por R$29,50
+                </p><br>
+            </nav>
+
+            <nav class="prato">
+                <br>
+                <h2>RM Double Prince®</h2>
+                <img src="project/images-html/burguer7.png">
+                <p>
+                    Dois hambúrgueres grelhados, cheddar fatiado e três fatias de bacon acompanhado do saboroso molho Stacker em um pão macio com gergelim.<br><br>
+                    De <r1>R$36,00</r1> Por R$31,00
                 </p><br>
             </nav>
         </section>
+
+        <nav id="carda"></nav>
 
         <nav id=btncardapio onclick="btncardapio()" class="btncardapio">
             <a href="#cardapio">           
@@ -113,26 +114,6 @@
 
             <nav class="prato">
                 <br>
-                <h2>Mini Royal</h2>
-                <img src="project/images-html/burguer8.png">
-                <p>
-                    Pão tipo brioche, um delicioso e suculento hambúrguer de carne bovina, queijo cheddar fatiado, maionese temperada e cebola salteada.<br><br>
-                    Por R$20,00
-                </p><br>
-            </nav>
-    
-            <nav class="prato">
-                <br>
-                <h2>RM Double Prince®</h2>
-                <img src="project/images-html/burguer7.png">
-                <p>
-                    Dois hambúrgueres grelhados, cheddar fatiado e três fatias de bacon acompanhado do saboroso molho Stacker em um pão macio com gergelim.<br><br>
-                    Por R$28,00
-                </p><br>
-            </nav>
-    
-            <nav class="prato">
-                <br>
                 <h2>Cheddar Royal</h2>
                 <img src="project/images-html/burguer5.png">
                 <p>
@@ -144,13 +125,35 @@
             <nav class="prato">
                 <br>
                 <h2>RM King®</h2>
+                <br>
                 <img src="project/images-html/burguer6.png">
                 <p>
                     Três deliciosas carnes grelhadas no fogo como churrasco, cheddar fatiado, bacon e molho Royal Meats.<br><br>
                     Por R$45,00
                 </p><br>
             </nav>
-             <br>
+    
+            <nav class="prato">
+                <br>
+                <h2>Mini Royal</h2>
+                <img src="project/images-html/burguer8.png">
+                <p>
+                    Pão tipo brioche, um delicioso e suculento hambúrguer de carne bovina, queijo cheddar fatiado, maionese temperada e cebola salteada.<br><br>
+                    Por R$20,00
+                </p><br>
+            </nav>
+
+            <nav class="prato">
+                <br>
+                <h2>Royal Chicken</h2>
+                <br>
+                <img src="project/images-html/burguer4.png">
+                <p>
+                    Pão com gergelim, dois deliciosos filés de peito de frango empanado, cheddar fatiado, maionese e alface.<br><br>
+                    Por R$28,00
+                </p><br>
+            </nav>
+            <br>
         </section>
     </main>
 
@@ -165,12 +168,11 @@
         <nav class="infos">                
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="_blank">
                     <h2>Contate-nos</h2>
-                </a>&nbsp;
+                </a><br>
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
                     <h2>Nossa Localidade</h2>
                 </a>&nbsp;
         </nav>
-        <br><br><br>
         <p>©2016-2023<br>
             Todos os direitos reservados.
         </p>
