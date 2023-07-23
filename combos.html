@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="Gih e Emy linda, leandrin gameplays e lucas incrível">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Meats</title>
+    <link rel="icon" href="project/images-html/logotipo2.png">
+    <link rel="stylesheet" href="project/css/style.css">
+    <script language="javascript" src="project/js/scripts.js"></script>
+</head>
+
+<body>
+    <header style="margin-top: -25vh;">
+        <div class="logotipo">
+            <a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a>
+        </div> 
+        <!--Mobile Menu with JS-->
+        <nav class="cabecalhomobile">    
+            <section id="menubar" class="invisivel">
+                <ul>
+                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
+                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
+                    <li><a onclick="AbreFecha()" href="index.html">Cardápio</a></li>
+                    <li><a onclick="AbreFecha()" href="index.html">Ofertas</a></li>
+                    <li><a href=sobre.html>Sobre Nós</a></li>
+                    <li><a href="cadastro.html">Cadastre-se</a></li>
+                </ul>    
+            </section>
+        </nav>
+        <!--Desktop Menu-->
+        <nav class="cabecalhodesktop">
+            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+            <ul>
+                <li><a href="index.html">Cardápio</a></li>
+                <li><a href="index.html">Ofertas</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="cadastro.html">Cadastre-se</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="campo2">
+        <form>
+            <nav id="acesso">  
+                <div>
+                    <h2>Coloque o seu cadastro</h2>
+                </div>
+                <div id="P4">
+                    <p>Nome: <input id="nome" required type="text" placeholder="nome" title="digite seu nome"></p>
+                    <p>Email: <input id="email" required type="email" placeholder="email" title="digite seu email"></p>
+                    <p>Senha: <input id="end" minlength="8" required type="password" placeholder="sua senha" title="digite sua senha"></p>              
+                <br>
+                <div>
+                    <input id="botao1" onclick="combos()" type="button" onclick="valida()" value="Cadastrar">
+                </div>
+            </nav>
+        </form>
+        <br><br>
+        <div style="display: none;" id="combos">
+            <nav class="desconto">
+                <br>
+                <h2>Combo Royal</h2>
+                <br><br>
+                <img src="project/images-html/combo3.png">
+                <br><br><br><br><br>
+                <p>Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
+                    Por apenas R$36,00
+                </p><br>
+            </nav>
+
+            <nav class="desconto">
+                <br>
+                <h2>Combo Double Prince</h2>
+                <br><br><br>
+                <img src="project/images-html/combo1.png">
+                <br><br><br><br>
+                <p>Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com bastante gergelim.<br><br>
+                    Por apenas R$34,00
+                </p><br>
+            </nav>
+        </div>
+        </div>
+    </main>
+
+    <footer>
+        <nav class="redes">
+            <h3>Siga-nos nas redes!</h3>
+            <a href="https://www.instagram.com/_royalmeats/" target="_blank"><img src="project/images-html/instagram.png"></a>
+            <a href="https://www.facebook.com/profile.php?id=100092363374849&is_tour_dismissed=true" target="_blank"><img src="project/images-html/facebook.png"></a>&nbsp;
+            <a href="https://www.linkedin.com/in/royal-meats-82252827b/" target="_blank"><img src="project/images-html/linkedin.png"></a>&nbsp;
+        </nav>
+
+        <nav class="infos">                
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="_blank">
+                    <h2>Contate-nos</h2>
+                </a>&nbsp;
+                <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
+                    <h2>Nossa Localidade</h2>
+                </a>&nbsp;
+        </nav>
+        <br>
+        <p>©2016-2023<br>
+            Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>
