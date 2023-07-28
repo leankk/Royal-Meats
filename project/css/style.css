@@ -53,12 +53,17 @@
     footer 
     { 
         width: 100vw;
-        height: 36vh;
+        height: 43.5vh;
         position: static;
         margin-bottom: -3vw;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 4px #fdda16;
+    }
+
+    footer p
+    {
+        margin-top: 7vh;
     }
 
     .logotipo
@@ -222,7 +227,7 @@
         height: 3vh;
         margin-top: 10vw;
         margin-right: 14vw;
-        margin-bottom: 13vw;
+        margin-bottom: 15vw;
         display: ruby;
     }
 
@@ -395,34 +400,16 @@
         height: 3vh;
         width: 25vw;
     }
- 
-    .desconto
-    {
-        width: 85vw;
-        margin-bottom: 4vh;
-        margin-right: 4vh;
-        font-size: 2vh;
-        border-radius: 4vh;
-        cursor: pointer;
-        display: inline-block;
-        background-color:rgba(255, 245, 50, 0.769);
-        border: transparent;
-        box-shadow: 2px 2px 2px rgb(110, 94, 0);
-    }
 
-    .desconto img
+    #acessar
     {
-        margin-top: -5vh;
-        width: 75%;
-        padding: 2vw;
+        width: 25vw;
+        height: 3.5vh;
+        margin-top: 5vh;
+        margin-right: -60vw;
     }
-
-    .desconto p
-    {
-        margin-top: -10vh;
-        margin-left: 0vw;
-        text-align: center;
-    }    /*CSS combos*/
+    
+    /*CSS combos*/
 
     .campo2
     {
@@ -541,12 +528,18 @@
     
     footer
     {
+        height: 30vh;
         width: 100vw;
         padding-top: 5vw;
         position: static;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 4px #fdda16;
+    }
+
+    footer p
+    {
+        margin-top: 4vh;
     }
 
     .logotipo
@@ -879,33 +872,14 @@
         width: 15vw;
     }
  
-    .desconto
+    #acessar
     {
-        width: 40vw;
-        margin-bottom: 4vh;
-        margin-right: 4vh;
-        font-size: 2vh;
-        border-radius: 4vh;
-        display: inline-block;
-        background-color:rgba(255, 245, 50, 0.769);
-        border: transparent;
-        box-shadow: 2px 2px 2px rgb(110, 94, 0);
+        width: 15vw;
+        height: 4vh;
+        margin-top: 5vh;
+        margin-right: -60vw;
     }
 
-    .desconto img
-    {
-        margin-top: -5vh;
-        width: 75%;
-        padding: 2vw;
-    }
-
-    .desconto p
-    {
-        font-size: 2.5vh;
-        margin-top: -5vh;
-        margin-left: 0vw;
-        text-align: center;
-    }
     /*CSS combos*/
 
     .campo2
@@ -1029,6 +1003,8 @@
     {
         text-align: center;
         margin-left: 0;
+        background-color: #000;
+        /*background-image:linear-gradient(#000,#454545,#656565);*/
     }
     
     section img 
@@ -1040,11 +1016,17 @@
     
     footer
     {
+        height: 33vh;
         width: 100vw;
         position: static;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 4px #fdda16;
+    }
+
+    footer p
+    {
+        margin-top: -4.5vh;
     }
 
     .logotipo
@@ -1149,7 +1131,7 @@
     .btncardapio
     {
         width: 15vw;
-        margin-left: 43.5vw;
+        margin-left: 41vw;
         padding: 1vh;
         border-radius: 10vw;
         background-color: #fdda16;
@@ -1373,9 +1355,9 @@
     #acessar
     {
         width: 15vw;
-        height: 7vh;
+        height: 5.5vh;
         margin-top: 10vh;
-        margin-left: 70vw;
+        margin-right: -70vw;
         cursor: pointer;
     }
 
