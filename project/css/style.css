@@ -3,7 +3,6 @@
 /* screen for mobile */
     * {
         font-family: Lora;
-        font-weight: bold; 
     }
 
     html 
@@ -20,17 +19,18 @@
         height: 24vh;
         padding: 0px;
         background-color: #fdda16;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 4px 0px #c5a801;
     }
 
     header img 
     {
-        margin-left: 10vw;
-        width: 24vw;
-        height: 18vh;
+        margin-top: -2vh;
+        margin-left: 5vw;
+        width: 35vw;
+        height: 20vh;
     }
 
-    body 
+    body
     {
         margin: 0vw;
         padding: 0vw;
@@ -46,19 +46,18 @@
     section img 
     {
         width: 100vw;
-        height: 50vh;
+        height: 40vh;
         margin-top: 22vh;
     }
 
     footer 
     { 
         width: 100vw;
-        height: 43.5vh;
         position: static;
-        margin-bottom: -3vw;
         background-color: #fdda16;
+        padding-bottom: 0.1vh;
         text-align: center;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 5px 0px #c5a801;
     }
 
     footer p
@@ -151,7 +150,7 @@
 
     .visivel a
     {
-        color: #fff;
+        color: #000;
         text-decoration: none;
         font-size: 10vw;
         text-align: center;
@@ -194,14 +193,16 @@
         margin-bottom: -10vh;
     }
 
-    .prato r1
+    .risco
     {
         text-decoration:line-through;
+        color: #a50101;
+        font-size: 80%;
     }
     
     .btncardapio
     {
-        width: 30vw;
+        width: 35vw;
         margin-left: 35vw;
         padding: 0.1vh;
         border-radius: 10vw;
@@ -342,7 +343,7 @@
         border-radius: 3vw;
     }
     
-    /*delivery*/
+    /*cadastro*/
 
     .campo
     {
@@ -350,7 +351,7 @@
         margin-left: 2vw;
         margin-right: 2vw;
         margin-bottom: 2vh;
-        font-size: 2vh;
+        font-size: 2.5vh;
         padding: 2vh;
         border-radius: 3vh;
         background-color: #fdda16;
@@ -364,41 +365,51 @@
         margin-left: 30vw;
     }
 
+    .campo h3
+    {
+        margin-bottom: 5vh;
+    }
+
     .campo input
     {
-        height: 2vh;
-        width: 30vw;
-        border-radius: 2vh;
-        font-size: 1.5vh;
-    }
-
-    #P1
-    {
-       margin-left: -20vw; 
-    }
-
-    #P2
-    {
-        margin-left: -20vw;
-    }
-
-    #P3
-    {
-        margin-top: -4.8vh;
-        margin-left: 32vw;
-    }
-
-    #uf
-    {
-        height: 3vh;
+        height: 2.5vh;
+        width: 35vw;
         border-radius: 2vh;
         font-size: 2vh;
     }
 
+    #P1
+    {
+       margin-left: -25vw; 
+    }
+
+    #email
+    {
+        width: 40vw;
+    }
+
+    #P2
+    {
+        margin-left: -25vw;
+    }
+
+    /*#P3
+    {
+        margin-top: -5.9vh;
+        margin-left: 33vw;
+    }
+
+    #uf
+    {
+        height: 3.5vh;
+        border-radius: 2vh;
+        font-size: 2vh;
+    }*/
+
     #botao
     {
-        height: 3vh;
-        width: 25vw;
+        height: 3.5vh;
+        width: 30vw;
     }
 
     #acessar
@@ -476,12 +487,6 @@
 /* media query for medium screens */
 
 @media only screen and (min-width: 720px) {
-
-    *{
-        font-family: Lora;
-        font-family: 20px;
-        font-weight: bold;
-    }
     
     html
     {
@@ -496,15 +501,16 @@
         width: 100vw;
         padding: 0; 
         background-color: #fdda16;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 4px 0px #c5a801;
     }
     
     header img
     {
-        margin-top: -10vw;
+        margin-top: -12vw;
         margin-left: 3vw;
-        padding-right: 1vw;
-        height: 18vh;
+        padding-right: 0vw;
+        height: 9rem;
+        width: 9rem;
     }
     
     body
@@ -534,7 +540,7 @@
         position: static;
         background-color: #fdda16;
         text-align: center;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 5px 0px #c5a801;
     }
 
     footer p
@@ -597,8 +603,8 @@
     
     .cabecalhodesktop ul li
     {
-        padding: 0.75vh;
-        font-size: 200%;
+        padding: 0.50vh;
+        font-size: 170%;
         visibility: visible;
         display: inline;
     }
@@ -659,6 +665,13 @@
         margin-left: 3vw;
         width: 75%;
         padding: 2vw;
+    }
+
+    .risco
+    {
+        text-decoration:line-through;
+        color: #a50101;
+        font-size: 80%;
     }
     
     .redes
@@ -807,7 +820,7 @@
         padding-left: 41vw;
     }
 
-    /*delivery*/
+    /* css cadastro*/
 
     .campo
     {
@@ -832,31 +845,31 @@
     .campo input
     {
         height: 3vh;
-        width: 17vw;
+        width: 20vw;
         border-radius: 2vh;
         font-size: 2vh;
     }
 
     #P1
     {
-       margin-left: -25vw; 
+       margin-left: -20vw; 
+    }
+
+    #email
+    {
+        width: 25vw;
     }
 
     #P2
     {
-        margin-left: 15vw;
-        margin-top: -25vh;
+        margin-left: 25vw;
+        margin-top: -19.3vh;
     }
 
-    #P3
+    /*#P3
     {
         margin-top: -6.5vh;
         margin-left: 45vw;
-    }
-
-    #P4
-    {
-        margin-left: 5vw;
     }
 
     #uf
@@ -864,7 +877,7 @@
         height: 4vh;
         border-radius: 2vh;
         font-size: 2vh;
-    }
+    }*/
 
     #botao
     {
@@ -950,11 +963,6 @@
 
 @media only screen and (min-width: 1024px)
 {
-    *{
-        font-family: Lora;
-        font-family: 20px;
-        font-weight: bold;
-    }
     
     html
     {
@@ -970,27 +978,20 @@
         margin-top: -2vw;
         padding: 0px; 
         background-color: #fdda16;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 5px 0px #c5a801;
     }
     
     header img
     {
-        margin-top: 1.5vw;
+        margin-top: 2vh;
         margin-left: 7vw;
-        width: 15vw;
-        height: 20vh;
+        width: 10rem;
+        height: 8.5rem;
     }
 
-    header ul{
-        margin-top: 3vw;
-    }
-    
-    header img
+    header ul
     {
-        margin-top: 1.5vw;
-        margin-left: 7vw;
-        width: 15vw;
-        height: 20vh;
+        margin-top: 3vw;
     }
 
     body
@@ -1021,7 +1022,7 @@
         position: static;
         background-color: #fdda16;
         text-align: center;
-        box-shadow: 0px 0px 4px #fdda16;
+        box-shadow: 0px 0px 5px 0px #c5a801;
     }
 
     footer p
@@ -1123,9 +1124,11 @@
         margin-top: -10vh;
     }
 
-    .prato r1
+    .risco
     {
         text-decoration:line-through;
+        color: #a50101;
+        font-size: 80%;
     }
 
     .btncardapio
@@ -1235,7 +1238,8 @@
 
     .Valores img
     {
-        float: right;
+        margin-top: -10vh;
+        display: right;
         width: 50vw;
         height: 80vh;
         border-radius: 3vh;
@@ -1320,21 +1324,21 @@
        margin-left: -25vw; 
     }
 
+    #email
+    {
+        width: 22vw;
+    }
+
     #P2
     {
         margin-left: 15vw;
-        margin-top: -40vh;
+        margin-top: -29.5vh;
     }
 
-    #P3
+    /*#P3
     {
         margin-top: -10vh;
         margin-left: 45vw;
-    }
-
-    #P4 
-    {
-        margin-left: -10vw;
     }
 
     #uf
@@ -1343,7 +1347,7 @@
         border-radius: 2vh;
         font-size: 3vh;
         cursor: pointer;
-    }
+    }*/
 
     #botao
     {
