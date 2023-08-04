@@ -13,7 +13,7 @@
 <body>
     <header style="margin-top: -25vh;">
         <div class="logotipo">
-            <a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a>
+            <a href="cadastro.html"><img src="project/images-html/logotipo2_cropped.png"></a>
         </div> 
         <!--Mobile Menu with JS-->
         <nav class="cabecalhomobile">    
@@ -23,18 +23,18 @@
                     <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
                     <li><a onclick="AbreFecha()" href="index.html">Cardápio</a></li>
                     <li><a onclick="AbreFecha()" href="index.html">Ofertas</a></li>
-                    <li><a href=sobre.html>Sobre Nós</a></li>
+                    <li><a href=sobre.html>Sobre</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>    
             </section>
         </nav>
         <!--Desktop Menu-->
         <nav class="cabecalhodesktop">
-            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+            <a href="cadastro.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
                 <li><a href="index.html">Cardápio</a></li>
                 <li><a href="index.html">Ofertas</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="cadastro.html">Cadastre-se</a></li>
             </ul>
         </nav>
@@ -44,21 +44,21 @@
         <div class="campo">
         <form>    
             <div>
-                <h2>Cadastre-se para receber ofertas imperdíveis</h2>
+                <h3>Cadastre-se para receber ofertas imperdíveis!</h3>
             </div>
             <div id="P1">
-                <p>Nome Completo: <input id="end" minlength="15" required type="text" placeholder="nome Completo" title="digite seu nome"></p>
-                <p>Telefone: <input id="end" maxlength="11" required type="tel" placeholder="telefone" title="digite seu telefone"></p>
-                <p>Email: <input id="end" required type="email" placeholder="email" title="digite seu email"></p>
-                <p>Crie uma Senha: <input id="end" minlength="8" required type="password" placeholder="senha" title="digite uma senha"></p>
+                <p>Nome: <input id="nome" minlength="3" required type="text" placeholder="nome" title="digite seu nome"></p>
+                <p>Email: <input id="email" required type="email" placeholder="email" title="digite seu email"></p>
+                <p>Crie uma Senha: <input id="senha" minlength="8" required type="password" placeholder="senha" title="digite uma senha"></p>
             </div>
             <div id="P2">
-                <p>CEP: <input id="cep" maxlength="9" required type="text" placeholder="CEP" title="digite seu cep"></p>
-                <p>Endereço: <input style="width: 25vw;" id="end" required type="text" placeholder="bairro,rua,número" title="digite seu endereço"></p>
+                <p>Telefone: <input id="tel" minlength="8" maxlength="11" required type="tel" placeholder="telefone" title="digite seu telefone"></p>
+                <p>CEP: <input id="cep" minlength="8" maxlength="9" required type="text" placeholder="CEP" title="digite seu cep"></p>
+                <!--<p>Endereço: <input id="end" required type="text" placeholder="bairro,rua,número" title="digite seu endereço"></p>-->
                 <p>Complemento: <input type="text" placeholder="opcional*" title="digite seu complemento"></p>
-                <p>Cidade: <input id="cidade" required type="text" placeholder="cidade" title="digite sua cidade"></p>
+                <!--<p>Cidade: <input id="cidade" required type="text" placeholder="cidade" title="digite sua cidade"></p>-->
             </div>
-            <div id=P3>
+            <!--<div id=P3>
                 <p>UF: <select required name="uf" id="uf">
                     <option value="SP">SP</option>
                     <option value="AC">AC</option>
@@ -89,11 +89,11 @@
                     <option value="SP">SP</option>
                     <option value="TO">TO</option>
                 </select></p> 
-            </div>               
+            </div>-->               
             <br>
             <div class="botao">
-            <input id="botao" type="submit" onclick="valida()" value="Cadastrar"><br>
-            <a href="combos.html"><input id="acessar" type="button" value="acessar"></a>
+            <input id="botao" type="button" onclick="valida()" value="Cadastrar"><br>
+            <a href="combos.html"><input id="acessar" type="button" value="Acessar"></a>
             </div>
         </form>
         <br><br>
@@ -102,7 +102,7 @@
 
     <footer>
         <nav class="redes">
-            <h3>Siga-nos nas redes!</h3>
+            <h3>Redes Sociais</h3>
             <a href="https://www.instagram.com/_royalmeats/" target="_blank"><img src="project/images-html/instagram.png"></a>
             <a href="https://www.facebook.com/profile.php?id=100092363374849&is_tour_dismissed=true" target="_blank"><img src="project/images-html/facebook.png"></a>&nbsp;
             <a href="https://www.linkedin.com/in/royal-meats-82252827b/" target="_blank"><img src="project/images-html/linkedin.png"></a>&nbsp;
@@ -110,14 +110,14 @@
 
         <nav class="infos">                
                 <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="_blank">
-                    <h2>Contate-nos</h2>
+                    <h2>Contatos</h2>
                 </a>&nbsp;
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
                     <h2>Nossa Localidade</h2>
                 </a>&nbsp;
         </nav>
         <br>
-        <p>©2016-2023<br>
+        <p>©2023<br>
             Todos os direitos reservados.
         </p>
     </footer>
