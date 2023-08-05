@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header style="margin-top: -25vh;">
+    <header class="topo2">
         <div class="logotipo">
             <a href="cadastro.html"><img src="project/images-html/logotipo2_cropped.png"></a>
         </div> 
@@ -21,8 +21,8 @@
                 <ul>
                     <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
                     <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href="index.html">Cardápio</a></li>
                     <li><a onclick="AbreFecha()" href="index.html">Ofertas</a></li>
+                    <li><a onclick="AbreFecha()" href="index.html">Cardápio</a></li>
                     <li><a href=sobre.html>Sobre</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>    
@@ -32,8 +32,8 @@
         <nav class="cabecalhodesktop">
             <a href="cadastro.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
-                <li><a href="index.html">Cardápio</a></li>
                 <li><a href="index.html">Ofertas</a></li>
+                <li><a href="index.html">Cardápio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="cadastro.html">Cadastre-se</a></li>
             </ul>
@@ -46,54 +46,19 @@
             <div>
                 <h3>Cadastre-se para receber ofertas imperdíveis!</h3>
             </div>
-            <div id="P1">
-                <p>Nome: <input id="nome" minlength="3" required type="text" placeholder="nome" title="digite seu nome"></p>
-                <p>Email: <input id="email" required type="email" placeholder="email" title="digite seu email"></p>
-                <p>Crie uma Senha: <input id="senha" minlength="8" required type="password" placeholder="senha" title="digite uma senha"></p>
+            <div id="p1">
+                <p>Nome: <input id="nome" type="text" placeholder="nome" title="digite seu nome"></p>
+                <p>Email: <input id="email" type="email" placeholder="email" title="digite seu email"></p>
+                <p>Crie uma Senha: <input id="senha" type="password" placeholder="senha" title="digite uma senha"></p>
             </div>
-            <div id="P2">
-                <p>Telefone: <input id="tel" minlength="8" maxlength="11" required type="tel" placeholder="telefone" title="digite seu telefone"></p>
-                <p>CEP: <input id="cep" minlength="8" maxlength="9" required type="text" placeholder="CEP" title="digite seu cep"></p>
-                <!--<p>Endereço: <input id="end" required type="text" placeholder="bairro,rua,número" title="digite seu endereço"></p>-->
+            <div id="p2">
+                <p>Telefone: <input id="tel" maxlength="9" type="tel" placeholder="telefone" title="digite seu telefone"></p>
+                <p>CEP: <input id="cep" maxlength="8" type="text" placeholder="CEP" title="digite seu cep"></p>             
                 <p>Complemento: <input type="text" placeholder="opcional*" title="digite seu complemento"></p>
-                <!--<p>Cidade: <input id="cidade" required type="text" placeholder="cidade" title="digite sua cidade"></p>-->
-            </div>
-            <!--<div id=P3>
-                <p>UF: <select required name="uf" id="uf">
-                    <option value="SP">SP</option>
-                    <option value="AC">AC</option>
-                    <option value="AL">AL</option>
-                    <option value="AM">AM</option>
-                    <option value="AP">AP</option>
-                    <option value="BA">BA</option>
-                    <option value="CE">CE</option>
-                    <option value="DF">DF</option>
-                    <option value="ES">ES</option>
-                    <option value="GO">GO</option>
-                    <option value="MA">MA</option>
-                    <option value="MG">MG</option>
-                    <option value="MS">MS</option>
-                    <option value="MT">MT</option>
-                    <option value="PA">PA</option>
-                    <option value="PB">PB</option>
-                    <option value="PE">PE</option>
-                    <option value="PI">PI</option>
-                    <option value="PR">PR</option>
-                    <option value="RJ">RJ</option>
-                    <option value="RN">RN</option>
-                    <option value="RS">RS</option>
-                    <option value="RO">RO</option>
-                    <option value="RR">RR</option>
-                    <option value="SC">SC</option>
-                    <option value="SE">SE</option>
-                    <option value="SP">SP</option>
-                    <option value="TO">TO</option>
-                </select></p> 
-            </div>-->               
+            </div>          
             <br>
             <div class="botao">
-            <input id="botao" type="button" onclick="valida()" value="Cadastrar"><br>
-            <a href="combos.html"><input id="acessar" type="button" value="Acessar"></a>
+            <input id="botao" type="button" onclick="valida()" value="Cadastrar">
             </div>
         </form>
         <br><br>
@@ -109,7 +74,7 @@
         </nav>
 
         <nav class="infos">                
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="_blank">
+                <a href="https://abre.ai/linkroyalmeats" target="_blank">
                     <h2>Contatos</h2>
                 </a>&nbsp;
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
