@@ -17,7 +17,7 @@
         position: fixed;
         width: 105vw;
         height: 24vh;
-        padding: 0px;
+        padding: 1vh;
         background-color: #fdda16;
         box-shadow: 0px 0px 4px 0px #c5a801;
     }
@@ -460,7 +460,7 @@
     {
         position: fixed;
         width: 100vw;
-        padding: 0; 
+        padding: 1vh; 
         background-color: #fdda16;
         box-shadow: 0px 0px 4px 0px #c5a801;
     }
@@ -850,7 +850,7 @@
         position: fixed;
         width: 100vw;
         margin-top: -2vw;
-        padding: 0px; 
+        padding: 1vh; 
         background-color: #fdda16;
         box-shadow: 0px 0px 5px 0px #c5a801;
     }
