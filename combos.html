@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <header style="margin-top: -2vh;">
+    <header class="topo3">
         <div class="logotipo">
             <a href="combos.html"><img src="project/images-html/logotipo2_cropped.png"></a>
         </div> 
@@ -21,8 +21,8 @@
                 <ul>
                     <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
                     <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
                     <li><a onclick="AbreFecha()" href=#ofertas>Ofertas</a></li>
+                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="cadastro.html">Cadastre-se</a></li>
                 </ul>    
@@ -32,79 +32,83 @@
         <nav class="cabecalhodesktop">
             <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
-                <li><a href=#carda>Cardápio</a></li>
                 <li><a href=#ofertas>Ofertas</a></li>
+                <li><a href=#carda>Cardápio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="cadastro.html">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
-        <!-- JS carrossel -->
-    <section>
-        <img src="project/images-html/banner1.png" name="slide">
-        <form id="btn_slide">
-            <input type="radio" id="v1" name="m" onclick="muda(1)">
-            <input type="radio" id="v2" name="m" onclick="muda(2)">
-            <input type="radio" id="v3" name="m" onclick="muda(3)">
-            <input type="radio" id="v4" name="m" onclick="muda(4)">
-        </form>
-    </section>
 
     <main>
+        <!-- JS carrossel -->
+        <section>
+            <img src="project/images-html/banner1.png" name="slide">
+            <form id="btn_slide">
+                <input type="radio" id="v1" name="m" onclick="muda(1)">
+                <input type="radio" id="v2" name="m" onclick="muda(2)">
+                <input type="radio" id="v3" name="m" onclick="muda(3)">
+                <input type="radio" id="v4" name="m" onclick="muda(4)">
+            </form>
+        </section>
+
+    
         <br>
         <h2 id="ofertas">Nossos Combos para Você!</h2>
         <br>
-        <nav class="prato">
+        <div class="prato">
             <br>
             <h2>Combo Royal</h2>
             <br><br>
             <img src="project/images-html/combo2.png">
             <br><br><br><br><br>
             <p>Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
-                Por apenas R$36,00
+                <span class="preco">Por apenas R$36,00</span>
             </p><br>
-        </nav>
+        </div>
 
-        <nav class="prato">
+        <div class="prato">
             <br>
             <h2>Combo Double Prince</h2>
-            <br><br><br>
+            <br><br>
             <img src="project/images-html/combo1.png">
             <br><br><br><br>
             <p>Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com bastante gergelim.<br><br>
-                Por apenas R$34,00
+                <span class="preco">Por apenas R$34,00</span>
             </p><br>
-        </nav>
-        <nav class="prato">
+        </div>
+
+        <div class="prato">
             <br>
             <h2>Combo Royal</h2>
             <br><br>
             <img src="project/images-html/combo2.png">
             <br><br><br><br><br>
             <p>Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
-                Por apenas R$36,00
+                <span class="preco">Por apenas R$36,00</span>
             </p><br>
-        </nav>
-        <nav class="prato">
+        </div>
+
+        <div class="prato">
             <br>
             <h2>Combo Royal</h2>
             <br><br>
             <img src="project/images-html/combo2.png">
             <br><br><br><br><br>
             <p>Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
-                Por apenas R$36,00
+                <span class="preco">Por apenas R$36,00</span>
             </p><br>
-        </nav>
+        </div>
     </div>
         
 
         <nav id="carda"></nav>
 
-        <nav id=btncardapio onclick="btncardapio()" class="btncardapio">
+        <div id=btncardapio onclick="btncardapio()" class="btncardapio">
             <a>           
             <h2>Mais Descontos</h2>
             </a>
-        </nav>
+        </div>
         <br>
 
         <section style="display: none;" id="cardapi">
@@ -112,91 +116,88 @@
             <br>
             <div id="combos">
                 <section class="ofertas">
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>RM Classic®</h2>
                         <img src="project/images-html/burguer1.png">
                         <p>
-                            <br><br>
                             Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
-                            Por R$25,00
+                            <span class="preco">Por R$25,00</span>
                         </p><br>
-                    </nav>
+                    </div>
         
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>RM Prince®</h2>
-                        <br>
-                        <br>
                         <img src="project/images-html/burguer3.png">
                         <p>
-                            Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com bastante gergelim.<br><br>
-                            Por R$30,00
+                            Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, e pão com gergelim.<br><br>
+                            <span class="preco">Por R$30,00</span>
                         </p><br>
-                    </nav>
+                    </div>
         
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>Classic Onion Rings</h2>
+                        <br>
                         <img src="project/images-html/burguer2.png">
                         <p>
                             Dois deliciosos hambúrgueres grelhados no fogo como churrasco, cheddar fatiado, onion rings, molho barbecue e maionese RM®.<br><br>
-                            Por R$27,00
+                            <span class="preco">Por R$27,00</span>
                         </p><br>
-                    </nav>
+                    </div>
         
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>RM Double Prince®</h2>
                         <img src="project/images-html/burguer7.png">
                         <p>
                             Dois hambúrgueres grelhados, cheddar fatiado e três fatias de bacon acompanhado do saboroso molho Stacker em um pão macio com gergelim.<br><br>
-                            Por R$29,00
+                            <span class="preco">Por R$29,00</span>
                         </p><br>
-                    </nav>
-                </section>
+                    </div>
         
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>Cheddar Royal</h2>
                         <img src="project/images-html/burguer5.png">
                         <p>
                             Pão tipo brioche, carne alta e suculenta, novo molho cremoso sabor queijo cheddar do RM, bacon em cubos bem crocantes e cebolas em rodelas salteadas.<br><br>
-                            Por R$22,00
+                            <span class="preco">Por R$22,00</span>
                         </p><br>
-                    </nav>
+                    </div>
             
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>RM King®</h2>
-                        <br>
+                        <br><br>
                         <img src="project/images-html/burguer6.png">
                         <p>
                             Três deliciosas carnes grelhadas no fogo como churrasco, cheddar fatiado, bacon e molho Royal Meats.<br><br>
-                            Por R$40,00
+                            <span class="preco">Por R$40,00</span>
                         </p><br>
-                    </nav>
+                    </div>
             
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>Mini Royal</h2>
                         <img src="project/images-html/burguer8.png">
                         <p>
                             Pão tipo brioche, um delicioso e suculento hambúrguer de carne bovina, queijo cheddar fatiado, maionese temperada e cebola salteada.<br><br>
-                            Por R$17,50
+                            <span class="preco">Por R$17,50</span>
                         </p><br>
-                    </nav>
+                    </div>
         
-                    <nav class="prato">
+                    <div class="prato">
                         <br>
                         <h2>Royal Chicken</h2>
-                        <br>
+                        <br><br>
                         <img src="project/images-html/burguer4.png">
                         <p>
                             Pão com gergelim, dois deliciosos filés de peito de frango empanado, cheddar fatiado, maionese e alface.<br><br>
-                            Por R$25,00
+                            <span class="preco">Por R$25,00</span>
                         </p><br>
-                    </nav>
+                    </div>
                     <br>
                 </section>
                 
@@ -212,7 +213,7 @@
         </nav>
 
         <nav class="infos">                
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJvlqhcLDZBZnJhRxHzgfVrrNTqzcvgcGHLMtllGJMvTbVhzMTqnLNMBPVtfCCFMlNqLLLq" target="_blank">
+                <a href="https://abre.ai/linkroyalmeats" target="_blank">
                     <h2>Contatos</h2>
                 </a><br>
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
