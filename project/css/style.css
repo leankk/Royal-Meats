@@ -3,6 +3,7 @@
 /* screen for mobile */
     * {
         font-family: Lora;
+        
     }
 
     html 
@@ -80,20 +81,20 @@
         display: none;
     }
 
-    .logotipo
+    .logo
     {
         display: inline-flex;
         float: left;
         margin-top: 8vw;
     }
 
-    .cabecalhomobile 
+    .cab-mob 
     {   
         display: inline-flex;
         float: right;
     }
 
-    .cabecalhomobile img
+    .cab-mob img
     {
         width: 12vw;
         height: 10vh;
@@ -102,24 +103,24 @@
         transition: 0.5s, ease-in-out; 
     }
 
-    .cabecalhomobile ul
+    .cab-mob ul
     {
         list-style: none;
     }
 
-    .cabecalhomobile li
+    .cab-mob li
     {
         font-size: 200%;
         list-style: none;
     }
 
-    .cabecalhomobile a
+    .cab-mob a
     {
         text-decoration:none;
         color: #000;
     }
 
-    .cabecalhodesktop 
+    .cab-desk
     {
         visibility: hidden;
     }
@@ -522,33 +523,28 @@
         margin-top: 11vw;
     }
     
-    .cabecalhomobile 
+    .cab-mob 
     {   
         display: inline-flex;
         float: right;
     }
 
-    .cabecalhomobile img
+    .cab-mob img
     {
         width: 12vw;
         height: 10vh;
         margin-top: 7vh;
         margin-left: -20vw;
         transition: 0.5s, ease-in-out;
-        
-    }
-
-    .cabecalhomobile img
-    {
         visibility: hidden;
     }
 
-    .cabecalhomobile ul li
+    .cab-mob ul li
     {
         list-style: none;
     }
     
-    .cabecalhodesktop
+    .cab-mob
     {
         margin-top: 1vw;
         position: fixed;
@@ -556,12 +552,12 @@
         display: inline;
     }
 
-    .cabecalhodesktop ul
+    .cab-mob ul
     {
         margin-left: 10vw;
     }
     
-    .cabecalhodesktop ul li
+    .cab-desk ul li
     {
         padding: 0.50vh;
         margin-left: 1.5vw;
@@ -570,7 +566,7 @@
         display: inline;
     }
     
-    .cabecalhodesktop a
+    .cab-desk a
     {
         text-decoration: none;
         color: #000;
@@ -916,22 +912,22 @@
         margin-top: -1vw;
     }
 
-    .cabecalhomobile
+    .cab-mob
     {
         visibility:hidden;
     }
 
-    .cabecalhomobile img
+    .cab-mob img
     {
         visibility: hidden;
     }
 
-    .cabecalhomobile ul li
+    .cab-mob ul li
     {
         list-style: none;
     }
     
-    .cabecalhodesktop
+    .cab-desk
     {
         margin-right: 1vw;
         margin-top: -10vw;
@@ -940,12 +936,12 @@
         float: right;
     }
 
-    .cabecalhodesktop ul
+    .cab-desk ul
     {
         margin-right: -10vw;
     }
     
-    .cabecalhodesktop ul li
+    .cab-desk ul li
     {
         padding: 1vh;
         margin-left: 1.5vw;
@@ -954,13 +950,13 @@
         display: inline;
     }
     
-    .cabecalhodesktop a
+    .cab-desk a
     {
         text-decoration: none;
         color: #000;
     }
     
-    .cabecalhodesktop a:hover
+    .cab-desk a:hover
     {
         font-size: 115%;
         text-decoration: underline;
