@@ -1,0 +1,89 @@
+@media only screen and (min-width: 720px) {
+
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+        scroll-padding-top: 22vh;
+    }
+
+
+
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    main {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    section img {
+        width: 100vw;
+        height: 72vh;
+        margin-top: 21vh;
+    }
+
+    footer {
+        height: 30vh;
+        width: 100vw;
+        padding-top: 5vw;
+        position: static;
+        background-color: #fdda16;
+        text-align: center;
+        box-shadow: 0px 0px 5px 0px #c5a801;
+    }
+
+    footer p {
+        margin-top: 4vh;
+    }
+
+
+
+    #btn_slide {
+        position: static;
+        margin-left: 45vw;
+        margin-top: -5vh;
+        opacity: 0.1;
+        cursor: default;
+    }
+
+    #btn_slide:hover {
+        opacity: 0.2;
+    }
+
+    .visivel {
+        visibility: visible;
+        height: auto;
+        transition: 0.5s 0.5s ease-out;
+    }
+
+    .invisivel {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .prato {
+        margin-bottom: 4vh;
+        margin-right: 4vh;
+        display: inline-grid;
+        font-size: 100%;
+        width: 40vw;
+        background-color: rgba(150, 150, 150, 0.5);
+        border: transparent;
+        box-shadow: 2px 2px 2px #969696;
+    }
+
+    .prato img {
+        margin-left: 8vw;
+        width: 10rem;
+        height: 15rem;
+        padding: 2vw;
+    }
+
+    .risco {
+        text-decoration: line-through;
+        color: #a50101;
+        font-size: 90%;
+    }
+}
