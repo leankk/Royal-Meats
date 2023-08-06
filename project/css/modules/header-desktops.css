@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1024px) {
+
+    .topo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header li img {
+        width: 8rem;
+    }
+
+    .cab-desk {
+        visibility: visible;
+    }
+
+    #menu-ham {
+        display: none;
+    }
+
+    .cab-desk ul li {
+        padding: 1vh;
+        margin-left: 1.5vw;
+        font-size: 2rem;
+        visibility: visible;
+        display: inline;
+    }
+
+    .cab-desk a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .cab-desk a:hover {
+        font-size: 2.1rem;
+        text-decoration: underline;
+        color: #000;
+    }
+}

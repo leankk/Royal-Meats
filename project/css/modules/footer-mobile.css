@@ -1,0 +1,42 @@
+footer {
+    width: 100vw;
+    position: static;
+    background-color: #fdda16;
+    padding-bottom: 0.1vh;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px #c5a801;
+}
+
+footer p {
+    margin-top: 7vh;
+}
+
+.redes {
+    margin-top: 7vw;
+    margin-right: -4vw;
+    padding-right: 1vw;
+    display: inline-block;
+}
+
+.infos {
+    height: 3vh;
+    margin-top: 10vw;
+    margin-right: 14vw;
+    margin-bottom: 15vw;
+    display: ruby;
+}
+
+.infos a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.infos a:visited {
+    color: #000;
+}
+
+.infos h2 {
+    margin-left: 15vw;
+    text-align: center;
+}
