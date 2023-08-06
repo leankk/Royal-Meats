@@ -13,45 +13,41 @@
 
 <body>
     <header class="topo">
-        <div class="logotipo">
-            <a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a>
-        </div> 
+        <ul class="cabecalho">
+            <li class="logotipo"><a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a></li>
+            <li id="menu-ham"><img src="project/images-html/cardapio.png" alt="" id="imagem"></li>
+        </ul>
         <!--Mobile Menu with JS-->
-        <nav class="cab-mob">    
-            <section id="menubar" class="invisivel">
-                <ul>
-                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
-                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href=#ofertas>Ofertas</a></li>
-                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                </ul>    
-            </section>
+        <nav class="mobile-nav">
+            <ul>
+                <li class="btn-nav"><a href="#ofertas">Ofertas</a></li>
+                <li class="btn-nav"><a href="#carda">Cardápio</a></li>
+                <li class="btn-nav"><a href="sobre.html">Sobre</a></li>
+                <li class="btn-nav"><a href="cadastro.html">Cadastre-se</a></li>
+            </ul>
         </nav>
         <!--Desktop Menu-->
         <nav class="cab-desk">
-            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
             <ul>
-                <li><a href=#ofertas>Ofertas</a></li>
-                <li><a href=#carda>Cardápio</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#carda">Cardápio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="cadastro.html">Cadastre-se</a></li>
             </ul>
         </nav>
     </header>
         <!-- JS carrossel -->
-    <section>
-        <img src="project/images-html/banner1.png" name="slide">
-        <form id="btn_slide">
-            <input type="radio" id="v1" name="m" onclick="muda(1)">
-            <input type="radio" id="v2" name="m" onclick="muda(2)">
-            <input type="radio" id="v3" name="m" onclick="muda(3)">
-            <input type="radio" id="v4" name="m" onclick="muda(4)">
-        </form>
-    </section>
-
     <main>
+        <section>
+            <img src="project/images-html/banner1.png" name="slide">
+            <form id="btn_slide">
+                <input type="radio" id="v1" name="m" onclick="muda(1)">
+                <input type="radio" id="v2" name="m" onclick="muda(2)">
+                <input type="radio" id="v3" name="m" onclick="muda(3)">
+                <input type="radio" id="v4" name="m" onclick="muda(4)">
+            </form>
+        </section>
+
         <br>
         <h2 id="ofertas">Aqui está nossos destaques!</h2>
         <br>
@@ -180,5 +176,6 @@
             Todos os direitos reservados.
         </p>
     </footer>
+    <script src="./project/js/mobileNav.js"></script>
 </body>
 </html>

@@ -2,22 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 /*css modules for mobile screens*/
-@import url("/project/css/header-mobile.css");
-@import url("/project/css/body-mobile.css");
-@import url("/project/css/footer-mobile.css");
-@import url("/project/css/sobre-mobile.css");
-@import url("/project/css/cadastro-mobile.css");
+@import url("/project/css/modules/header-mobile.css");
+@import url("/project/css/modules/body-mobile.css");
+@import url("/project/css/modules/footer-mobile.css");
+@import url("/project/css/modules/sobre-mobile.css");
+@import url("/project/css/modules/cadastro-mobile.css");
 
 /*css modules for medium screens */
-@import url("/project/css/header-med-screens.css");
-@import url("/project/css/body-med-screens.css");
-@import url("/project/css/footer-med-screens");
-@import url("/project/css/sobre-med-screens.css");
-@import url("/project/css/cadastro-med-screens.css");
+@import url("/project/css/modules/header-med-screens.css");
+@import url("/project/css/modules/body-med-screens.css");
+@import url("/project/css/modules/footer-med-screens.css");
+@import url("/project/css/modules/sobre-med-screens.css");
+@import url("/project/css/modules/cadastro-med-screens.css");
 
 /* css modules for desktops */
-@import url("/project/css/header-desktops.css");
-@import url("/project/css/body-desktops.css");
-@import url("/project/css/footer-desktops.css");
-@import url("/project/css/sobre-desktops.css");
-@import url("/project/css/cadastro-desktops.css");
+@import url("/project/css/modules/header-desktops.css");
+@import url("/project/css/modules/body-desktops.css");
+@import url("/project/css/modules/footer-desktops.css");
+@import url("/project/css/modules/sobre-desktops.css");
+@import url("/project/css/modules/cadastro-desktops.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
