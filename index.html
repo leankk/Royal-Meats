@@ -1,56 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+    
 <head>
-    <meta name="author" content="Gih e Emy linda, leandrin gameplays e lucas incrível">
+    <meta name="description" content="Gih e Emy linda, leandrin gameplays e lucas incrível">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Meats</title>
     <link rel="icon" href="project/images-html/logotipo2.png">
     <link rel="stylesheet" href="project/css/style.css">
-    <script language="javascript" src="project/js/scripts.js"></script>
+    <script src="project/js/scripts.js" defer></script>
 </head>
 
 <body>
     <header class="topo">
-        <div class="logotipo">
-            <a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a>
-        </div> 
+        <ul class="cabecalho">
+            <li class="logotipo"><a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a></li>
+            <li id="menu-ham"><img src="project/images-html/cardapio.png" alt="" id="imagem"></li>
+        </ul>
         <!--Mobile Menu with JS-->
-        <nav class="cabecalhomobile">    
-            <section id="menubar" class="invisivel">
-                <ul>
-                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
-                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href=#ofertas>Ofertas</a></li>
-                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                </ul>    
-            </section>
+        <nav class="mobile-nav">
+            <ul>
+                <li class="btn-nav"><a href="#ofertas">Ofertas</a></li>
+                <li class="btn-nav"><a href="#carda">Cardápio</a></li>
+                <li class="btn-nav"><a href="sobre.html">Sobre</a></li>
+                <li class="btn-nav"><a href="cadastro.html">Descontos</a></li>
+            </ul>
         </nav>
         <!--Desktop Menu-->
-        <nav class="cabecalhodesktop">
-            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
+        <nav class="cab-desk">
             <ul>
-                <li><a href=#ofertas>Ofertas</a></li>
-                <li><a href=#carda>Cardápio</a></li>
+                <li><a href="#ofertas">Ofertas</a></li>
+                <li><a href="#carda">Cardápio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="cadastro.html">Descontos</a></li>
             </ul>
         </nav>
     </header>
         <!-- JS carrossel -->
-    <section>
-        <img src="project/images-html/banner1.png" name="slide">
-        <form id="btn_slide">
-            <input type="radio" id="v1" name="m" onclick="muda(1)">
-            <input type="radio" id="v2" name="m" onclick="muda(2)">
-            <input type="radio" id="v3" name="m" onclick="muda(3)">
-            <input type="radio" id="v4" name="m" onclick="muda(4)">
-        </form>
-    </section>
-
     <main>
+        <section>
+            <img src="project/images-html/banner1.png" name="slide">
+            <form id="btn_slide">
+                <input type="radio" id="v1" name="m" onclick="muda(1)">
+                <input type="radio" id="v2" name="m" onclick="muda(2)">
+                <input type="radio" id="v3" name="m" onclick="muda(3)">
+                <input type="radio" id="v4" name="m" onclick="muda(4)">
+            </form>
+        </section>
+
         <br>
         <h2 id="ofertas">Aqui está nossos destaques!</h2>
         <br>
@@ -61,7 +58,7 @@
                 <img src="project/images-html/burguer1.png">
                 <p>
                     <br>
-                    Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
+                    Composto por duas carnes grelhadas, bacon em cubos, queijo cheddar, molho Royal Meats e pão com páprica e gergelim preto.<br><br>
                     <span class="preco">De <span class="risco">R$32,00</span> Por R$27,00</span>
                 </p><br>
             </div>
@@ -71,7 +68,7 @@
                 <h2>RM Prince®</h2>
                 <img src="project/images-html/burguer3.png">
                 <p>
-                    Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com bastante gergelim.<br><br>
+                    Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com gergelim.<br><br>
                     <span class="preco">De <span class="risco">R$40,00</span> Por R$35,00</span>
                 </p><br>
             </div>
@@ -81,7 +78,7 @@
                 <h2>Classic Onion Rings</h2>
                 <br>
                 <img src="project/images-html/burguer2.png">
-                <br><br>
+                
                 <p>
                     Dois deliciosos hambúrgueres grelhados no fogo como churrasco, cheddar fatiado, onion rings, molho barbecue e maionese RM®.<br><br>
                     <span class="preco">De <span class="risco">R$34,00</span> Por R$29,50</span>
@@ -94,7 +91,7 @@
                 <br>
                 <img src="project/images-html/burguer7.png">
                 <p>
-                    Dois hambúrgueres grelhados, cheddar fatiado e três fatias de bacon acompanhado do saboroso molho Stacker em um pão macio com gergelim.<br><br>
+                    Dois hambúrgueres grelhados, cheddar e três fatias de bacon acompanhado do saboroso molho Stacker em um pão com gergelim.<br><br>
                     <span class="preco">De <span class="risco">R$35,50</span> Por R$31,00</span>
                 </p><br>
             </div>
@@ -171,7 +168,7 @@
                     <h2>Contatos</h2>
                 </a><br>
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
-                    <h2>Nossa Localidade</h2>
+                    <h2>Localidade</h2>
                 </a>&nbsp;
         </nav>
         <br>
@@ -179,187 +176,6 @@
             Todos os direitos reservados.
         </p>
     </footer>
-</body>
-</html><!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta name="author" content="Gih e Emy linda, leandrin gameplays e lucas incrível">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Royal Meats</title>
-    <link rel="icon" href="project/images-html/logotipo2.png">
-    <link rel="stylesheet" href="project/css/style.css">
-    <script language="javascript" src="project/js/scripts.js"></script>
-</head>
-
-<body>
-    <header class="topo">
-        <div class="logotipo">
-            <a href="index.html"><img src="project/images-html/logotipo2_cropped.png"></a>
-        </div> 
-        <!--Mobile Menu with JS-->
-        <nav class="cabecalhomobile">    
-            <section id="menubar" class="invisivel">
-                <ul>
-                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
-                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href=#ofertas>Ofertas</a></li>
-                    <li><a onclick="AbreFecha()" href=#carda>Cardápio</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                </ul>    
-            </section>
-        </nav>
-        <!--Desktop Menu-->
-        <nav class="cabecalhodesktop">
-            <a href="index.html"><img src="project/images-html/logotipo2.png"></a>
-            <ul>
-                <li><a href=#ofertas>Ofertas</a></li>
-                <li><a href=#carda>Cardápio</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="cadastro.html">Cadastre-se</a></li>
-            </ul>
-        </nav>
-    </header>
-        <!-- JS carrossel -->
-    <section>
-        <img src="project/images-html/banner1.png" name="slide">
-        <form id="btn_slide">
-            <input type="radio" id="v1" name="m" onclick="muda(1)">
-            <input type="radio" id="v2" name="m" onclick="muda(2)">
-            <input type="radio" id="v3" name="m" onclick="muda(3)">
-            <input type="radio" id="v4" name="m" onclick="muda(4)">
-        </form>
-    </section>
-
-    <main>
-        <br>
-        <h2 id="ofertas">Aqui está nossos destaques!</h2>
-        <br>
-        <section class="ofertas">
-            <div class="prato">
-                <br>
-                <h2>RM Classic®</h2>
-                <img src="project/images-html/burguer1.png">
-                <p>
-                    <br>
-                    Composto por duas carnes grelhadas, bacon em cubos, molho cremoso sabor queijo cheddar, molho Royal Meats e pão laranja com páprica e gergelim preto.<br><br>
-                    <span class="preco">De <span class="risco">R$32,00</span> Por R$27,00</span>
-                </p><br>
-            </div>
-
-            <div class="prato">
-                <br>
-                <h2>RM Prince®</h2>
-                <img src="project/images-html/burguer3.png">
-                <p>
-                    Com 2 carnes, molho cremoso sabor queijo cheddar, 3 fatias de bacon, molho inconfundível RM® e queijo processado empanado sabor cheddar, no pão com bastante gergelim.<br><br>
-                    <span class="preco">De <span class="risco">R$40,00</span> Por R$35,00</span>
-                </p><br>
-            </div>
-
-            <div class="prato">
-                <br>
-                <h2>Classic Onion Rings</h2>
-                <br>
-                <img src="project/images-html/burguer2.png">
-                <br><br>
-                <p>
-                    Dois deliciosos hambúrgueres grelhados no fogo como churrasco, cheddar fatiado, onion rings, molho barbecue e maionese RM®.<br><br>
-                    <span class="preco">De <span class="risco">R$34,00</span> Por R$29,50</span>
-                </p><br>
-            </div>
-
-            <div class="prato">
-                <br>
-                <h2>RM Double Prince®</h2>
-                <br>
-                <img src="project/images-html/burguer7.png">
-                <p>
-                    Dois hambúrgueres grelhados, cheddar fatiado e três fatias de bacon acompanhado do saboroso molho Stacker em um pão macio com gergelim.<br><br>
-                    <span class="preco">De <span class="risco">R$35,50</span> Por R$31,00</span>
-                </p><br>
-            </div>
-        </section>
-
-        <nav id="carda"></nav>
-
-        <div id=btncardapio onclick="btncardapio()" class="btncardapio">
-            <a>           
-            <h2>Veja Mais!</h2>
-            </a>
-        </div>
-        <br>
-
-        <section class="display" id="cardapi">
-            <h2>Nosso Cardápio</h2>
-            <br>
-
-            <div class="prato">
-                <br>
-                <h2>Cheddar Royal</h2>
-                <img src="project/images-html/burguer5.png">
-                <p>
-                    Pão tipo brioche, carne alta e suculenta, novo molho cremoso sabor queijo cheddar do RM, bacon em cubos bem crocantes e cebolas em rodelas salteadas.<br><br>
-                    <span class="preco">Por R$24,00</span>
-                </p><br>
-            </div>
-    
-            <div class="prato">
-                <br>
-                <h2>RM King®</h2>
-                <br><br>
-                <img src="project/images-html/burguer6.png">
-                <p>
-                    Três deliciosas carnes grelhadas no fogo como churrasco, cheddar fatiado, bacon e molho Royal Meats.<br><br>
-                    <span class="preco">Por R$45,00</span>
-                </p><br>
-            </div>
-    
-            <div class="prato">
-                <br>
-                <h2>Mini Royal</h2>
-                <img src="project/images-html/burguer8.png">
-                <p>
-                    Pão tipo brioche, um delicioso e suculento hambúrguer de carne bovina, queijo cheddar fatiado, maionese temperada e cebola salteada.<br><br>
-                    <span class="preco">Por R$20,00</span>
-                </p><br>
-            </div>
-
-            <div class="prato">
-                <br>
-                <h2>Royal Chicken</h2>
-                <br><br>
-                <img src="project/images-html/burguer4.png">
-                <p>
-                    Pão com gergelim, dois deliciosos filés de peito de frango empanado, cheddar fatiado, maionese e alface.<br><br>
-                    <span class="preco">Por R$28,00</span>
-                </p><br>
-            </div>
-            <br>
-        </section>
-    </main>
-
-    <footer>
-        <nav class="redes">
-            <h3>Redes Sociais</h3>
-            <a href="https://www.instagram.com/_royalmeats/" target="_blank"><img src="project/images-html/instagram.png"></a>
-            <a href="https://www.facebook.com/profile.php?id=100092363374849&is_tour_dismissed=true" target="_blank"><img src="project/images-html/facebook.png"></a>&nbsp;
-            <a href="https://www.linkedin.com/in/royal-meats-82252827b/" target="_blank"><img src="project/images-html/linkedin.png"></a>&nbsp;
-        </nav>
-
-        <nav class="infos">                
-                <a href="https://abre.ai/linkroyalmeats" target="_blank">
-                    <h2>Contatos</h2>
-                </a><br>
-                <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
-                    <h2>Nossa Localidade</h2>
-                </a>&nbsp;
-        </nav>
-        <br>
-        <p>©2023<br>
-            Todos os direitos reservados.
-        </p>
-    </footer>
+    <script src="./project/js/mobileNav.js"></script>
 </body>
 </html>
