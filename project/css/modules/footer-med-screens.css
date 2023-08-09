@@ -7,7 +7,7 @@
     }
 
     .infos {
-        margin-top: -28vh;
+        margin-top: -8rem;
         margin-left: 55vw;
         display: block;
         padding-top: 7vh;
@@ -20,7 +20,7 @@
 
     .infos h2 {
         width: 9vw;
-        margin-bottom: -4vh;
+        margin-bottom: 1rem;
         list-style: none;
         text-align: center;
     }

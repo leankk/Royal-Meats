@@ -1,6 +1,13 @@
 @media only screen and (min-width: 720px) {
+    
+    .logo {
+        margin-top: -1rem;
+        margin-left: -2rem;
+    }
+
     .topo4 {
         margin-top: -10.5rem;
+        height: 8rem;
     }
 
     .svm {
@@ -47,13 +54,13 @@
 
     .valores img {
         float: right;
-        width: 50vw;
-        height: 70vh;
+        width: 25rem;
+        height: 25rem;
         border-radius: 3vh;
     }
 
     .valores h5 {
-        margin-top: -1vh;
+        margin-top: 2rem;
         margin-left: 5vw;
         text-align: left;
         font-size: 140%;
@@ -67,11 +74,11 @@
     .valores p {
         text-align: left;
         margin-left: 5vw;
-        margin-top: -3vh;
+        margin-top: 0;
     }
 
     .missao {
-        height: 57vh;
+        height: 25rem;
         padding: 2vh;
         border-radius: 3vh;
         display: right;

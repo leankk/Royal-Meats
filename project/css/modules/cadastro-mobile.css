@@ -27,6 +27,7 @@
 .campo input {
     height: 2.5vh;
     width: 35vw;
+    margin-top: 1rem;
     border-radius: 2vh;
     font-size: 90%;
 }
@@ -53,5 +54,5 @@
 /* css combos*/
 
 .topo3 {
-    margin-top: -1rem;
+    margin-top: 0rem;
 }

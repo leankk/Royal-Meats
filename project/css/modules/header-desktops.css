@@ -7,11 +7,12 @@
     }
 
     header li img {
-        width: 8rem;
+        width: 10rem;
     }
 
     .cab-desk {
         visibility: visible;
+        float: right;
     }
 
     #menu-ham {
