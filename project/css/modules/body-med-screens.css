@@ -7,12 +7,6 @@
     }
 
 
-
-    body {
-        margin: 0;
-        padding: 0;
-    }
-
     main {
         text-align: center;
         margin-left: 0;
@@ -21,7 +15,7 @@
     section img {
         width: 100vw;
         height: 72vh;
-        margin-top: 21vh;
+        margin-top: 6rem;
     }
 
     footer {
@@ -38,14 +32,16 @@
         margin-top: 4vh;
     }
 
-
-
     #btn_slide {
-        position: static;
-        margin-left: 45vw;
-        margin-top: -5vh;
+        color: #000;
+        position: relative;
+        margin-left: 0rem;
+        margin-top: 0vh;
         opacity: 0.1;
-        cursor: default;
+    }
+
+    #btn_slide input {
+        cursor: pointer;
     }
 
     #btn_slide:hover {

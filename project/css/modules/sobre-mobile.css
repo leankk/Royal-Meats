@@ -1,5 +1,5 @@
 .topo4 {
-    margin-top: -11rem;
+    margin-top: -10.7rem;
 }
 
 .svm {
@@ -26,7 +26,7 @@
 }
 
 .slogan {
-    font-size: 140%;
+    font-size: 120%;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .valores h5 {
-    margin-top: -1vh;
+    margin-top: 2rem;
     margin-left: 5vw;
     text-align: left;
     font-size: 165%;
@@ -63,7 +63,7 @@
 .valores p {
     text-align: left;
     margin-left: 5vw;
-    margin-top: -3vh;
+    margin-top: 0;
 }
 
 .missao {

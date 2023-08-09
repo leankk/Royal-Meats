@@ -9,8 +9,6 @@ html {
 }
 
 body {
-    margin: 0vw;
-    padding: 0vw;
     background-color: #000;
 }
 
@@ -22,7 +20,7 @@ main {
 section img {
     width: 100vw;
     height: 40vh;
-    margin-top: 22vh;
+    margin-top: 8rem;
 }
 
 #display {
@@ -31,6 +29,18 @@ section img {
 
 .display {
     display: none;
+}
+
+#btn_slide {
+    color: #000;
+    position: relative;
+    margin-left: 0rem;
+    margin-top: 0vh;
+    opacity: 0.1;
+}
+
+#btn_slide input {
+    cursor: pointer;
 }
 
 #btn_slide:hover {
@@ -118,7 +128,7 @@ section img {
 .btncardapio {
     width: 35vw;
     margin-left: 35vw;
-    padding: 0.1vh;
+    padding: 0.5vh;
     border-radius: 10vw;
     background-color: #fdda16;
 }

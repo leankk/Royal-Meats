@@ -2,7 +2,7 @@ footer {
     width: 100vw;
     position: static;
     background-color: #fdda16;
-    padding-bottom: 0.1vh;
+    padding-bottom: 1rem;
     text-align: center;
     box-shadow: 0px 0px 5px 0px #c5a801;
 }

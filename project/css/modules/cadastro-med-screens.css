@@ -1,4 +1,9 @@
 @media only screen and (min-width: 720px) {
+    
+    .logo {
+        margin-top: -0.5rem;
+    }
+
     .topo2 {
         margin-top: -10.5rem;
     }
@@ -36,8 +41,8 @@
     }
 
     #p2 {
-        margin-left: 25vw;
-        margin-top: -21vh;
+        margin-left: 11rem;
+        margin-top: -7.5rem;
     }
 
     #botao {

@@ -7,36 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Royal Meats</title>
     <link rel="icon" href="project/images-html/logotipo2.png">
-    <link rel="stylesheet" href="project/css/style.css">
+    <link rel="stylesheet" href="../Royal-Meats-main/project/css/style.css">
     <script src="project/js/scripts.js" defer></script>
 </head>
 
 <body>
     <header class="topo2">
-        <div class="logotipo">
-            <a href="cadastro.html"><img src="project/images-html/logotipo2_cropped.png"></a>
-        </div> 
+        <ul class="cabecalho">
+            <li class="logo"><a href="cadastro.html"><img src="project/images-html/logotipo2_cropped.png"></a></li>
+            <li id="menu-ham"><img src="project/images-html/cardapio.png" alt="" id="imagem"></li>
+        </ul>
         <!--Mobile Menu with JS-->
-        <nav class="cab-mob">    
-            <section id="menubar" class="invisivel">
-                <ul>
-                    <img class="visivel" onclick="AbreFecha()" src="project/images-html/cardapio.png">
-                    <li><img onclick="AbreFecha()" src="project/images-html/botao-fechar.png"></li>
-                    <li><a onclick="AbreFecha()" href="index.html">Ofertas</a></li>
-                    <li><a onclick="AbreFecha()" href="index.html">Cardápio</a></li>
-                    <li><a href=sobre.html>Sobre</a></li>
-                    <li><a href="cadastro.html">Cadastre-se</a></li>
-                </ul>    
-            </section>
+        <nav class="mobile-nav">
+            <ul>
+                <li class="btn-nav"><a href="index.html">Ofertas</a></li>
+                <li class="btn-nav"><a href="index.html">Cardápio</a></li>
+                <li class="btn-nav"><a href="sobre.html">Sobre</a></li>
+                <li class="btn-nav"><a href="cadastro.html">Descontos</a></li>
+            </ul>
         </nav>
         <!--Desktop Menu-->
-        <nav class="cab-desk">
-            <a href="cadastro.html"><img src="project/images-html/logotipo2.png"></a>
+        <nav id="nav" class="cab-desk">
             <ul>
                 <li><a href="index.html">Ofertas</a></li>
                 <li><a href="index.html">Cardápio</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="cadastro.html">Cadastre-se</a></li>
+                <li><a href="cadastro.html">Descontos</a></li>
             </ul>
         </nav>
     </header>
@@ -79,7 +75,7 @@
                     <h2>Contatos</h2>
                 </a>&nbsp;
                 <a href="https://www.google.com.br/maps/place/ETEC+Prof%C2%B0+Basilides+de+Godoy/@-23.5208137,-46.7303614,17z/data=!3m1!4b1!4m6!3m5!1s0x94cef8c1d371ec31:0x671c9325c275132e!8m2!3d-23.5208186!4d-46.7277865!16s%2Fg%2F121tt059?entry=ttu" target="_blank">
-                    <h2>Nossa Localidade</h2>
+                    <h2>Localidade</h2>
                 </a>&nbsp;
         </nav>
         <br>
@@ -87,5 +83,6 @@
             Todos os direitos reservados.
         </p>
     </footer>
+    <script src="./project/js/mobileNav.js"></script>
 </body>
 </html>

@@ -2,8 +2,8 @@
 
 
     footer {
-        height: 33vh;
-        width: 100vw;
+        height: 15rem;
+        padding: 2.8rem;
         position: static;
         background-color: #fdda16;
         text-align: center;
@@ -11,23 +11,11 @@
     }
 
     footer p {
-        margin-top: -4.5vh;
-    }
-
-
-
-
-
-    .redes {
-        margin-top: -15vh;
-        margin-right: 50vw;
-        display: inline-block;
+        margin-top: -3rem;
     }
 
     .infos {
-        margin-top: -25vh;
-        margin-left: 55vw;
-        display: inline-block;
+        margin-top: -5rem;
     }
 
     .infos a {
@@ -42,8 +30,7 @@
 
     .infos h2 {
         font-size: 150%;
-        width: 12vw;
-        padding-bottom: 2vw;
+        padding-bottom: 1rem;
         list-style: none;
         text-align: center;
     }
