@@ -2,7 +2,7 @@
 
 
     footer {
-        height: 15rem;
+        height: 22rem;
         padding: 2.8rem;
         position: static;
         background-color: #fdda16;
@@ -11,11 +11,13 @@
     }
 
     footer p {
-        margin-top: -3rem;
+        margin-top: 7rem;
+        margin-left: 25.3rem;
+        display: inline-flex;
     }
 
     .infos {
-        margin-top: -5rem;
+        float: left;
     }
 
     .infos a {
@@ -24,14 +26,36 @@
         color: #000;
     }
 
-    .infos a:visited {
-        color: #000;
+    .infos h2 {
+        margin-left: 13rem;
+        padding-bottom: 1rem;
+        list-style: none;
+        text-align: center;
     }
 
-    .infos h2 {
+    .maps{       
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 11.5rem;
+        margin-top: -10rem;
+        padding-bottom: 6rem;
+        float: right;
+        border-radius: 2rem;
+    }
+
+    .maps h2{
         font-size: 150%;
         padding-bottom: 1rem;
         list-style: none;
         text-align: center;
+    }
+
+    iframe{
+        border: 0;
+        border-radius: 0.5rem;
+        box-shadow: 2px 2px 2px 2px #505050;
+        width: 18.5rem;
+        height: 10rem;
     }
 }
