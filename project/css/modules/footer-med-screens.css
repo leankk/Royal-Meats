@@ -1,21 +1,32 @@
 @media only screen and (min-width: 720px) {
+    
+    footer {
+        height: 30rem;
+        padding: 1rem;
+        position: static;
+        background-color: #fdda16;
+        text-align: center;
+        box-shadow: 0px 0px 5px 0px #c5a801;
+    }
+
+    footer p {
+        margin-top: 12rem;
+        margin-left: 15.5rem;
+        display: inline-flex;
+    }
+    
     .redes {
-        margin-top: -10vh;
+        margin-top: -5vh;
         margin-right: 60vw;
         display: block;
         padding-top: 10vh;
     }
 
     .infos {
-        margin-top: -8rem;
+        margin-top: -5rem;
         margin-left: 55vw;
         display: block;
         padding-top: 7vh;
-    }
-
-    .infos h2:hover {
-        font-size: 175%;
-        color: #0f0e0e;
     }
 
     .infos h2 {
@@ -23,5 +34,33 @@
         margin-bottom: 1rem;
         list-style: none;
         text-align: center;
+    }
+
+    .maps {       
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2.5rem;
+        margin-top: -5rem;
+        padding-bottom: 6rem;
+        float: right;
+        border-radius: 2rem;
+    }
+    
+    .maps a{
+        color: #000;
+        text-decoration: none;
+        font-size: 100%;
+        padding-bottom: 1rem;
+        list-style: none;
+        text-align: center;
+    }
+
+    iframe{
+        border: 1;
+        border-color: #000;
+        border-radius: 0.5rem;
+        width: 18.5rem;
+        height: 10rem;
     }
 }

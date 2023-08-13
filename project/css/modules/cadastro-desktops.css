@@ -2,7 +2,7 @@
 {
     .topo2
     {
-        margin-top: -12rem;
+        margin-top: -10rem;
     }
 
     .campo
@@ -68,6 +68,10 @@
 
     .topo3
     {
-        margin-top: -0.5rem;
+        margin-top: -5rem;
+    }
+
+    .logo {
+        margin-top: 4rem;
     }
 }
