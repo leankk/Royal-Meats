@@ -1,6 +1,5 @@
 @media only screen and (min-width: 1024px) {
 
-
     footer {
         height: 22rem;
         padding: 2.8rem;
@@ -37,24 +36,30 @@
         display: block;
         justify-content: center;
         align-items: center;
-        margin-right: 11.5rem;
+        margin-right: 12rem;
         margin-top: -10rem;
         padding-bottom: 6rem;
         float: right;
         border-radius: 2rem;
     }
 
-    .maps h2{
-        font-size: 150%;
+    .maps a{
+        color: #000;
+        text-decoration: none;
+        font-size: 100%;
         padding-bottom: 1rem;
         list-style: none;
         text-align: center;
     }
 
+    .maps a:hover{
+       font-size: 120%; 
+    }
+
     iframe{
-        border: 0;
+        border: 1;
+        border-color: #000;
         border-radius: 0.5rem;
-        box-shadow: 2px 2px 2px 2px #505050;
         width: 18.5rem;
         height: 10rem;
     }

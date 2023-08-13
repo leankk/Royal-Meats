@@ -45,7 +45,7 @@
     .sobrenos img {
         float: left;
         width: 50vw;
-        height: 85vh;
+        height: 90vh;
         border-radius: 3vh;
     }
 
@@ -59,10 +59,9 @@
     }
 
     .valores img {
-        margin-top: -10vh;
         display: right;
         width: 50vw;
-        height: 80vh;
+        height: 65vh;
         border-radius: 3vh;
     }
 
@@ -95,8 +94,9 @@
 
     .missao img {
         float: left;
+        border-radius: 3vh;
         width: 40vw;
-        height: 60vh;
+        height: 55vh;
         padding-bottom: 10vh;
     }
 

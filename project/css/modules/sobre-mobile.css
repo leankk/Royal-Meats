@@ -1,5 +1,10 @@
+.logo {
+    margin-top: 4rem;
+}
+
 .topo4 {
-    margin-top: -10.7rem;
+    margin-top: -15rem;
+    height: 12rem;
 }
 
 .svm {
@@ -32,7 +37,7 @@
 
 .sobrenos img {
     width: 85vw;
-    height: 60vh;
+    height: 50vh;
     border-radius: 3vh;
 }
 
@@ -45,7 +50,7 @@
 
 .valores img {
     width: 85vw;
-    height: 60vh;
+    height: 50vh;
     border-radius: 3vh;
 }
 
@@ -75,6 +80,6 @@
 
 .missao img {
     width: 85vw;
-    height: 60vh;
+    height: 50vh;
     border-radius: 3vw;
 }

@@ -1,5 +1,6 @@
 .topo2 {
-    margin-top: -12rem;
+    margin-top: -15rem;
+    height: 12rem;    
 }
 
 .campo {
@@ -54,5 +55,10 @@
 /* css combos*/
 
 .topo3 {
-    margin-top: 0rem;
+    margin-top: -4rem;
+    height: 12rem;
+}
+
+.logo {
+    margin-top: 4rem;
 }

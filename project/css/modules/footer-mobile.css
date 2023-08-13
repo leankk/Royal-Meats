@@ -40,3 +40,34 @@ footer p {
     margin-left: 15vw;
     text-align: center;
 }
+
+.maps {       
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+    padding-bottom: 3rem;
+    float: right;
+    border-radius: 2rem;
+}
+
+.maps a{
+    color: #000;
+    text-decoration: none;
+    font-size: 100%;
+    padding-bottom: 1rem;
+    list-style: none;
+    text-align: center;
+}
+
+.maps a:hover{
+   font-size: 120%; 
+}
+
+iframe{
+    border: 1;
+    border-color: #000;
+    border-radius: 0.5rem;
+    width: 18.5rem;
+    height: 10rem;
+}
