@@ -23,14 +23,6 @@ section img {
     margin-top: 8rem;
 }
 
-#display {
-    display: none;
-}
-
-.display {
-    display: none;
-}
-
 #btn_slide {
     color: #000;
     position: relative;
