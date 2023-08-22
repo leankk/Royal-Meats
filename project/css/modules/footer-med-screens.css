@@ -1,42 +1,36 @@
 @media only screen and (min-width: 720px) {
-    
     footer {
-        height: 30rem;
-        padding: 1rem;
+        width: 100vw;
+        height: 30.5rem;
         position: static;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 5px 0px #c5a801;
     }
-
     footer p {
-        margin-top: 12rem;
-        margin-left: 15.5rem;
+        margin-top: -3.5rem;
+        margin-left: 10rem;
         display: inline-flex;
     }
-    
     .redes {
         margin-top: -5vh;
         margin-right: 60vw;
         display: block;
         padding-top: 10vh;
     }
-
     .infos {
         margin-top: -5rem;
         margin-left: 55vw;
         display: block;
         padding-top: 7vh;
     }
-
     .infos h2 {
         width: 9vw;
         margin-bottom: 1rem;
         list-style: none;
         text-align: center;
     }
-
-    .maps {       
+    .maps {
         display: block;
         justify-content: center;
         align-items: center;
@@ -46,8 +40,7 @@
         float: right;
         border-radius: 2rem;
     }
-    
-    .maps a{
+    .maps a {
         color: #000;
         text-decoration: none;
         font-size: 100%;
@@ -55,8 +48,7 @@
         list-style: none;
         text-align: center;
     }
-
-    iframe{
+    iframe {
         border: 1;
         border-color: #000;
         border-radius: 0.5rem;

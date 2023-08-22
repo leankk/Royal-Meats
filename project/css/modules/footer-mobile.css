@@ -36,17 +36,17 @@ footer p {
     text-align: center;
 }
 
-.maps {       
+.maps {
     display: block;
     justify-content: center;
     align-items: center;
-    margin-right: 1.5rem;
+    margin-right: 19.5vw;
     padding-bottom: 3rem;
     float: right;
     border-radius: 2rem;
 }
 
-.maps a{
+.maps a {
     color: #000;
     text-decoration: none;
     font-size: 100%;
@@ -55,7 +55,7 @@ footer p {
     text-align: center;
 }
 
-iframe{
+iframe {
     border: 1;
     border-color: #000;
     border-radius: 0.5rem;

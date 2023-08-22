@@ -1,57 +1,49 @@
 @media only screen and (min-width: 1024px) {
-
     footer {
         width: 100vw;
-        height: 25rem;
-        position: static;
+        height: fit-content;
+        position: relative;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 5px 0px #c5a801;
     }
-
     footer p {
-        margin-top: 7rem;
-        margin-left: 25.3rem;
-        display: inline-flex;
-    }
-
-    .redes {
-        margin-top: 1vh;
+        position: absolute;
+        margin-top: -1.5rem;
+        margin-left: 40vw;
+        text-align: center;
         display: block;
     }
-
-    .infos a {
-        width: 3vw;
+    .redes {
+        margin-top: -10vh;
+        display: block;
+    }
+    .redes a {
+        width: 1.5vw;
         text-decoration: none;
         color: #000;
     }
-
-    .infos h2 {
-        margin-left: -33.5rem;
-        margin-top: 8vw;
-        padding-bottom: 1rem;
+    .redes h2 {
+        padding-bottom: 2rem;
         list-style: none;
         text-align: center;
     }
-
-    .infos h2:hover{
+    .redes h2:hover {
         font-size: 200%;
         transition: 0.5s;
         text-decoration: underline;
     }
-
-    .maps{       
+    .maps {
+        padding: 0;
         display: block;
         justify-content: center;
         align-items: center;
         margin-right: 12rem;
-        margin-top: -20.5rem;
-        padding-bottom: 6rem;
+        margin-top: -13.5rem;
         float: right;
         border-radius: 2rem;
     }
-
-    .maps a{
+    .maps a {
         color: #000;
         text-decoration: none;
         font-size: 100%;
@@ -59,18 +51,15 @@
         list-style: none;
         text-align: center;
     }
-
-    iframe{
+    iframe {
         border: 1;
         border-color: #000;
         border-radius: 0.5rem;
         width: 18.5rem;
         height: 10rem;
     }
-
-    iframe:hover{
+    iframe:hover {
         width: 50vw;
-        height: 14vw;
         transition: 0.5s;
     }
 }
