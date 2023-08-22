@@ -8,7 +8,7 @@ footer {
 }
 
 footer p {
-    margin-top: 7vh;
+    margin-top: 35vh;
 }
 
 .redes {
@@ -28,11 +28,6 @@ footer p {
 
 .infos a {
     text-decoration: none;
-    color: #000;
-}
-
-
-.infos a:visited {
     color: #000;
 }
 
@@ -60,14 +55,10 @@ footer p {
     text-align: center;
 }
 
-.maps a:hover{
-   font-size: 120%; 
-}
-
 iframe{
     border: 1;
     border-color: #000;
     border-radius: 0.5rem;
-    width: 18.5rem;
+    width: 17.8rem;
     height: 10rem;
 }

@@ -1,8 +1,8 @@
 @media only screen and (min-width: 1024px) {
 
     footer {
-        height: 22rem;
-        padding: 2.8rem;
+        width: 100vw;
+        height: 25rem;
         position: static;
         background-color: #fdda16;
         text-align: center;
@@ -15,8 +15,9 @@
         display: inline-flex;
     }
 
-    .infos {
-        float: left;
+    .redes {
+        margin-top: 1vh;
+        display: block;
     }
 
     .infos a {
@@ -26,10 +27,17 @@
     }
 
     .infos h2 {
-        margin-left: 13rem;
+        margin-left: -33.5rem;
+        margin-top: 8vw;
         padding-bottom: 1rem;
         list-style: none;
         text-align: center;
+    }
+
+    .infos h2:hover{
+        font-size: 200%;
+        transition: 0.5s;
+        text-decoration: underline;
     }
 
     .maps{       
@@ -37,7 +45,7 @@
         justify-content: center;
         align-items: center;
         margin-right: 12rem;
-        margin-top: -10rem;
+        margin-top: -20.5rem;
         padding-bottom: 6rem;
         float: right;
         border-radius: 2rem;
@@ -52,15 +60,17 @@
         text-align: center;
     }
 
-    .maps a:hover{
-       font-size: 120%; 
-    }
-
     iframe{
         border: 1;
         border-color: #000;
         border-radius: 0.5rem;
         width: 18.5rem;
         height: 10rem;
+    }
+
+    iframe:hover{
+        width: 50vw;
+        height: 14vw;
+        transition: 0.5s;
     }
 }
