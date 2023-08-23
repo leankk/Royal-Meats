@@ -8,40 +8,36 @@ footer {
 }
 
 footer p {
-    margin-top: 35vh;
+    margin-top: 5rem;
+    margin-left: 35vw;
+    width: 23vw;
+    text-align: center;
 }
 
 .redes {
     margin-top: 7vw;
     margin-right: -4vw;
-    padding-right: 1vw;
+    padding-bottom: 5vw;
     display: inline-block;
 }
 
-.infos {
-    height: 3vh;
-    margin-top: 10vw;
-    margin-right: 14vw;
-    margin-bottom: 15vw;
-    display: ruby;
-}
-
-.infos a {
+.redes a {
     text-decoration: none;
     color: #000;
 }
 
-.infos h2 {
-    margin-left: 15vw;
+.redes h2 {
+    margin-left: -12vw;
+    padding-bottom: 7.5vw;
     text-align: center;
 }
 
 .maps {
-    display: block;
+    display: grid;
     justify-content: center;
     align-items: center;
-    margin-right: 19.5vw;
-    padding-bottom: 3rem;
+    margin-right: 15.5vw;
+    padding-bottom: 1rem;
     float: right;
     border-radius: 2rem;
 }
@@ -59,6 +55,6 @@ iframe {
     border: 1;
     border-color: #000;
     border-radius: 0.5rem;
-    width: 17.8rem;
+    width: 15rem;
     height: 10rem;
 }

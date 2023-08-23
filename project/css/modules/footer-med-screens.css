@@ -1,15 +1,15 @@
 @media only screen and (min-width: 720px) {
     footer {
         width: 100vw;
-        height: 30.5rem;
+        height: 25rem;
         position: static;
         background-color: #fdda16;
         text-align: center;
         box-shadow: 0px 0px 5px 0px #c5a801;
     }
     footer p {
-        margin-top: -3.5rem;
-        margin-left: 10rem;
+        margin-top: 2rem;
+        margin-left: 2rem;
         display: inline-flex;
     }
     .redes {
@@ -18,14 +18,9 @@
         display: block;
         padding-top: 10vh;
     }
-    .infos {
-        margin-top: -5rem;
-        margin-left: 55vw;
-        display: block;
-        padding-top: 7vh;
-    }
-    .infos h2 {
+    .redes h2 {
         width: 9vw;
+        margin-left: 15vw;
         margin-bottom: 1rem;
         list-style: none;
         text-align: center;
@@ -35,8 +30,8 @@
         justify-content: center;
         align-items: center;
         margin-right: 2.5rem;
-        margin-top: -5rem;
-        padding-bottom: 6rem;
+        margin-top: -12.5rem;
+        padding-bottom: 1rem;
         float: right;
         border-radius: 2rem;
     }
