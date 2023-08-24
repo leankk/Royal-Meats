@@ -34,12 +34,10 @@ header li img {
 .mobile-nav {
     width: 65vw;
     height: 82.5vh;
-
     position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-right: 50vw;
     left: 100vw;
     top: 17.5vh;

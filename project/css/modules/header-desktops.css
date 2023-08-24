@@ -1,22 +1,22 @@
 @media only screen and (min-width: 1024px) {
 
+    header li img {
+        width: 10rem;
+    }
+
     .topo {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
-    header li img {
-        width: 10rem;
+    #menu-ham {
+        display: none;
     }
-
+    
     .cab-desk {
         visibility: visible;
         float: right;
-    }
-
-    #menu-ham {
-        display: none;
     }
 
     .cab-desk ul li {
@@ -33,6 +33,32 @@
     }
 
     .cab-desk a:hover {
+        font-size: 2.5rem;
+        transition: 0.1s;
+        text-decoration: underline;
+        color: #000;
+    }
+
+    .cab-desk-abt {
+        visibility: visible;
+        float: right;
+    }
+
+    .cab-desk-abt ul li {
+        margin-bottom: -15vw;
+        padding: 1vh;
+        margin-left: 1.5vw;
+        font-size: 2rem;
+        visibility: visible;
+        display: inline;
+    }
+
+    .cab-desk-abt a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .cab-desk-abt a:hover {
         font-size: 2.5rem;
         transition: 0.1s;
         text-decoration: underline;
