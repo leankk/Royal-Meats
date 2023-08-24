@@ -1,0 +1,72 @@
+@media only screen and (min-width: 1024px) {
+    html {
+        scroll-behavior: smooth;
+        overflow-x: hidden !important;
+        scroll-padding-top: 22vh;
+    }
+    main {
+        height: fit-content;
+        text-align: center;
+        margin-left: 0;
+        background-color: #000;
+    }
+    section img {
+        width: 100vw;
+        height: 74vh;
+        margin-top: 7.2rem;
+    }
+    #btn_slide {
+        position: relative;
+        margin-left: 0rem;
+        margin-top: 0vh;
+        opacity: 0.1;
+    }
+    #btn_slide:hover {
+        opacity: 0.2;
+    }
+    #btn_slide input {
+        cursor: pointer;
+    }
+    .prato {
+        display: inline-block;
+        background-color: rgba(150, 150, 150, 0.5);
+        border: transparent;
+        box-shadow: 2px 2px 2px #969696;
+        width: 20vw;
+        margin-top: 0;
+    }
+    .prato:hover {
+        cursor: pointer;
+        padding: 1vw;
+        transition: 0.3s;
+    }
+    .prato img {
+        margin-left: 1rem;
+        width: 15vw;
+        height: 32vh;
+    }
+    .prato p {
+        margin-top: -10vh;
+    }
+    .risco {
+        text-decoration: line-through;
+        color: #a50101;
+        font-size: 90%;
+    }
+    .btncardapio {
+        width: 15vw;
+        margin-left: 41vw;
+        padding: 1vh;
+        border-radius: 10vw;
+        background-color: #fdda16;
+        cursor: pointer;
+    }
+    .btncardapio a {
+        text-decoration: none;
+        color: #000;
+    }
+    .btncardapio:hover {
+        padding: 1vw;
+        transition: 0.3s;
+    }
+}

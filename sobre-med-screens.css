@@ -1,0 +1,99 @@
+@media only screen and (min-width: 720px) {
+    
+    .logo {
+        margin-top: -1rem;
+        margin-left: -2rem;
+    }
+
+    .topo4 {
+        margin-top: -10.5rem;
+        height: 8rem;
+    }
+
+    .svm {
+        margin-top: 25vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-bottom: 3vh;
+    }
+
+    .svm p {
+        font-size: 120%;
+    }
+
+    .svm h3 {
+        margin-top: -1vh;
+    }
+
+    .sobrenos {
+        padding: 2vh;
+        border-radius: 3vh;
+        background-color: #fdda16;
+        color: #000;
+    }
+
+    .sobrenos img {
+        float: left;
+        width: 50vw;
+        height: 60vh;
+        border-radius: 3vh;
+    }
+
+    .sobrenos p {
+        display: inline;
+    }
+
+    .valores {
+        height: 30rem;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: left;
+        background-color: #fdda16;
+        color: #000;
+    }
+
+    .valores img {
+        float: right;
+        width: 25rem;
+        height: 27rem;
+        border-radius: 3vh;
+    }
+
+    .valores h5 {
+        margin-top: 2rem;
+        margin-left: 5vw;
+        text-align: left;
+        font-size: 140%;
+        cursor: pointer;
+    }
+
+    .valores h5:hover {
+        text-decoration: underline;
+    }
+
+    .valores p {
+        text-align: left;
+        margin-left: 5vw;
+        margin-top: 0;
+    }
+
+    .missao {
+        height: 22rem;
+        padding: 2vh;
+        border-radius: 3vh;
+        display: right;
+        color: #000;
+        background-color: #fdda16;
+    }
+
+    .missao img {
+        float: left;
+        width: 40vw;
+        height: 52vh;
+        padding-bottom: 10vh;
+    }
+
+    .missao p {
+        padding-left: 41vw;
+    }
+}

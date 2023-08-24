@@ -1,0 +1,131 @@
+* {
+    font-family: Lora;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+    scroll-padding-top: 22vh;
+}
+
+body {
+    background-color: #000;
+}
+
+main {
+    text-align: center;
+    color: #fff;
+}
+
+section img {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 8rem;
+}
+
+#btn_slide {
+    color: #000;
+    position: relative;
+    margin-left: 0rem;
+    margin-top: 0vh;
+    opacity: 0.1;
+}
+
+#btn_slide input {
+    cursor: pointer;
+}
+
+#btn_slide:hover {
+    opacity: 0.2;
+}
+
+#menubar {
+    margin: none;
+    display: table;
+}
+
+.visivel {
+    visibility: visible;
+    width: 105vw;
+    height: 100vh;
+    margin-right: 5vw;
+    margin-top: -25vw;
+    transition: 0.15s ease-in-out;
+}
+
+.visivel ul {
+    background-color: #fdda16;
+    margin-top: -25vw;
+}
+
+
+.visivel li {
+    margin-right: 5vw;
+    padding: 3vw;
+    text-align: center;
+}
+
+.visivel li img {
+    margin-left: -5vw;
+}
+
+.visivel a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+}
+
+.invisivel {
+    visibility: hidden;
+    height: 0px;
+    transition: 0.05s;
+}
+
+.prato {
+    margin-bottom: 3vh;
+    font-size: 100%;
+    display: inline-table;
+    width: 75vw;
+    height: auto;
+    background-color: rgba(150, 150, 150, 0.5);
+    border-radius: 3vh;
+    box-shadow: 2px 2px 2px #969696;
+}
+
+.prato img {
+    margin-top: 5vh;
+    width: 75%;
+    padding: 3vw;
+    opacity: 1;
+}
+
+.prato p {
+    margin-top: -7vh;
+}
+
+.prato h2 {
+    margin-bottom: -10vh;
+}
+
+.risco {
+    text-decoration: line-through;
+    color: #a50101;
+    font-size: 90%;
+}
+
+.preco {
+    font-weight: bold;
+}
+
+.btncardapio {
+    width: 35vw;
+    margin-left: 35vw;
+    padding: 0.5vh;
+    border-radius: 10vw;
+    background-color: #fdda16;
+}
+
+.btncardapio a {
+    text-decoration: none;
+    color: #000;
+}
