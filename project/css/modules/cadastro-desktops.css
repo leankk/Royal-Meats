@@ -1,12 +1,8 @@
-@media only screen and (min-width: 1024px)
-{
-    .topo2
-    {
-        margin-top: -10rem;
+@media only screen and (min-width: 1024px) {
+    .topo2 {
+        margin-top: -12rem;
     }
-
-    .campo
-    {
+    .campo {
         margin-top: 24vh;
         margin-left: 2vw;
         margin-right: 2vw;
@@ -18,60 +14,42 @@
         color: #000;
         text-align: center;
     }
-
-    .campo p 
-    {
+    .campo p {
         display: table;
         margin-left: 36vw;
     }
-
-    .campo input
-    {
+    .campo input {
         height: 2rem;
         width: 20rem;
         margin-top: 1rem;
         border-radius: 2vh;
         font-size: 100%;
     }
-
-    #p1
-    {
-       margin-left: -25vw; 
+    #p1 {
+        margin-left: -25vw;
     }
-
-    #email
-    {
+    #email {
         width: 25rem;
     }
-
-    #p2
-    {
+    #p2 {
         margin-left: 15vw;
         margin-top: -10rem;
     }
-
-    #botao
-    {
+    #botao {
         height: 5vh;
         width: 10vw;
         cursor: pointer;
         font-size: 85%;
     }
-
-    #botao:hover
-    {
+    #botao:hover {
         width: 10%;
         text-decoration: underline;
     }
-
     /* css combos*/
-
-    .topo3
-    {
+    .topo3 {
         margin-top: -5rem;
     }
-
     .logo {
-        margin-top: 4rem;
+        margin-top: 0rem;
     }
 }
